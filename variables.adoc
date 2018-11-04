@@ -1,0 +1,12 @@
+:doc-version: 1.0
+:short-name: Fábio Luciano
+:full-name: Fábio Luciano Nogueira de Góis
+:skype-id: fabiolucianodf
+:telephone: +5561981455884
+:email: fabio@naoimporta.com
+:facebook: fabioluciano
+:instagram: fabioluciano
+:twitter: fabioluciano
+:linkedin: fabioluciano
+:github: fabioluciano
+:whereami: Brasília, Brazil

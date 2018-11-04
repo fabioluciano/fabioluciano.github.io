@@ -1,0 +1,18 @@
+include::variables.adoc[]
+
+= Curriculum Vitae - {short-name}
+{short-name} <{email}>
+v1.0, November 4, 2018: First build
+
+:toc2:
+:toclevels: 2
+
+:linkattrs:
+:sectanchors:
+:sectlink:
+:experimental:
+:source-language: asciidoc
+:includedir: sections
+:icons: font
+
+include::{includedir}/personal-information.adoc[]

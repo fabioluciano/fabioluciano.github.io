@@ -1,0 +1,16 @@
+[[personal-informations]]
+== icon:user[] Personal Informations
+
+.Fábio Luciano
+****
+aaaa
+****
+
+Contacts::
+* icon:phone[] Mobile Phone/WhatsApp: {telephone}
+* icon:skype[] Skype: {skype-id}
+WebSites::
+* http://naoimporta.com[Personal Blog]
+* http://fabioluciano.me
+* http://gluejs.com
+* http://integr8.me 
