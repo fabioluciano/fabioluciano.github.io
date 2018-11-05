@@ -1,0 +1,111 @@
+[[professional-experience]]
+== icon:suitcase[] Professional Experience
+
+=== Software Architect at CTIS Tecnologia
+
+icon:calendar[title="Period"] `April 2016 to July 2016` +
+icon:group[title="Employe"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-ministry-mdic}[Ministry of Development, Industry and Foreign Trade]
+
+- Development and maintenance of service oriented architecture (SOA);
+- Architectural implementation of systems using Phalcon PHP, Symfony and Laravel;
+- DAO component Implementation for reuse in all architetures;
+- Development of AngularJS based architecture;
+- Architectural documentation of the systems delivered with the established architecture;
+- Deployment system documentation ;
+- Maintaining and creation of jobs in the Jenkins, continuous integration tool;
+- Establish minimum security policies for applications developed that use the architecture;
+- Quality policy creation to be evaluated by static analiser;
+- Maintenance and monitoring of quality standard policies of the software developed using the Sonarqube;
+- Releases Maintenance and Snapshots using Sonatype Nexus.
+- Creating proof of concept using the architecture created by using containers.
+
+Technologies::
+...
+
+
+=== Software Architect at CTIS Tecnologia
+
+icon:calendar[title="Period"] `March 2015 to December 2015` +
+icon:group[title="Employe"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-ministry-integration}[Ministry of National Integration]
+
+- Development and maintenance of service oriented architecture (SOA);
+- Development of two bases for the backend. One using PHP, with the help of the Laravel framework, and other using Java, with the Spring framework;
+- Development of AngularJS based frontend architecture;
+- Scaffold tool creation to rapid development of features;
+- Architectural documentation of the systems delivered with the established architecture;
+- Deployment system documentation ;
+- Maintaining and creating jobs in the Jenkins, continuous integration tool;
+
+Technologies::
+...
+
+=== PHP Developer at CTIS Tecnologia
+
+icon:calendar[title="Period"] `February 2014 to March 2015` +
+icon:group[title="Employe"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-ministry-integration}[Ministry of National Integration]
+
+- Development and maintenance of softwares developed using PHP, with the Zend, Symfony and Laravel frameworks, and MySQL, PostgreSQL and Oracle Databases; 
+- Frontend development using HTML, Javascript (JQuery) and CSS.
+
+Technologies::
+...
+
+=== SCM Analyst at Gestão TI
+
+icon:calendar[title="Period"] `April 2011 to July 2012` +
+icon:group[title="Employe"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
+
+- Maintenance and management of application servers;
+- Version management of generated artifacts; 
+- Delivery of developed products;
+- Creation of application security policies;
+- Maintenance of products baselines, branches and tags.
+
+Technologies::
+...
+
+
+=== PHP Developer at Gestão TI
+
+icon:calendar[title="Period"] `March 2012 to April 2012` +
+icon:group[title="Employe"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
+
+- Development and maintenance of softwares developed using PHP and SQL Server; 
+- Development of frontend using HTML, Javascript (JQuery) and CSS; 
+- Migration from legacy ASP softwares to PHP.
+
+Technologies::
+...
+
+=== System Administrator at Fábrica de Ideias
+
+icon:calendar[title="Period"] `January 2011 to June 2011` +
+icon:group[title="Employe"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
+
+- Administration of 20 company servers;
+- Maintenance of application servers using the Apache HTTPd for backend, and Lighttpd for frontend;
+- Maintenance of server databases in clustered environment, ensuring high service availability;
+- Maintenance of reverse proxy server using Squid ;
+- SVN server administration;
+- Monitoring servers and services using Zabbix.
+
+Technologies::
+...
+
+=== PHP Developer at Fábrica de Ideias
+
+icon:calendar[title="Period"] `August 2008 to December 2010` +
+icon:group[title="Employe"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
+
+- Development and maintenance of solutions developed using PHP and MySQL;
+- Development of frontend using HTML, Javascript (JQuery) and CSS;
+- Creation of an tool for marking areas in images to OCR. The markings are made using Python and wxWidgets, to ensure interoperability of the application;
+- Creation of an handmade Load Balance to garantee the high avaliability of services in operation;
+- Use of subversion for versioning releases of the software developed.
+
+Technologies::
+
+PHP, MySQL, Javascript, HTML, CSS, Subversion, ShellScript 

@@ -1,0 +1,22 @@
+[[certifications]]
+== icon:certificate[] Certifications
+
+=== AWS Certified Cloud Practitioner
+icon:calendar[title="Period"] `October 2018` - `October 2023` +
+*License*: EZE0CYJ2KB4QQ094 - *Issuer*: Amazon Web Services - {link-certification-aws}[Verify, role="external", window="_blank"]
+
+=== AWS Certified Cloud Practitioner
+icon:calendar[title="Period"] `September 2018` - `September 2020` +
+*License*: KZMW4WL21B44QN94 - *Issuer*: Amazon Web Services - {link-certification-aws}[Verify, role="external", window="_blank"]
+
+=== LPIC-OT DevOps Tools Engineer
+icon:calendar[title="Period"] `September 2018` - `September 2023` +
+*License*: LPI000397664 - *Issuer*: Linux Professional Institute - {link-certification-lpic-ot-site}[Verify, role="external", window="_blank"]
+
+=== Zend Certified PHP Engineer
+icon:calendar[title="Period"] `February 2016` - ∞ +
+*License*: ZEND026303 - *Issuer*: Zend Technologies- {link-certification-zend-site}[Verify, role="external", window="_blank"]
+
+=== icon:linux[] LPIC1 – Linux Profissionais Institute Certified – Level 1
+icon:calendar[title="Period"] `March 2012` +
+*License*: LPI000397664 - *Issuer*: Linux Professional Institute - {link-certification-lpic-ot-site}[Verify, role="external", window="_blank"]

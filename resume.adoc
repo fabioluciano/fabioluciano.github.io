@@ -1,18 +1,26 @@
 include::variables.adoc[]
-
-= Curriculum Vitae - {short-name}
-{short-name} <{email}>
-v1.0, November 4, 2018: First build
-
 :toc2:
 :toclevels: 2
-
+:icons: font
+:iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 :linkattrs:
 :sectanchors:
 :sectlink:
 :experimental:
 :source-language: asciidoc
 :includedir: sections
-:icons: font
+
+= Curriculum Vitae - {short-name}
+{short-name} <{email}>
+v1.0, November 4, 2018: First build
 
 include::{includedir}/personal-information.adoc[]
+
+include::{includedir}/professional-experience.adoc[]
+
+include::{includedir}/education.adoc[]
+
+include::{includedir}/technical-skills.adoc[]
+
+
+include::{includedir}/certifications.adoc[]

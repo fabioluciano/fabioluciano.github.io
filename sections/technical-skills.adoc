@@ -1,0 +1,5 @@
+[[technical-skills]]
+
+== icon:plug[] Technical Skills
+
+placeholder
