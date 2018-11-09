@@ -22,5 +22,4 @@ include::{includedir}/education.adoc[]
 
 include::{includedir}/technical-skills.adoc[]
 
-
 include::{includedir}/certifications.adoc[]
