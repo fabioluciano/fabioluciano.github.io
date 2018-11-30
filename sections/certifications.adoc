@@ -1,7 +1,7 @@
 [[certifications]]
 == icon:certificate[] Certifications
 
-=== AWS Certified Cloud Practitioner
+=== AWS Certified Solutions Architect - Associate 
 icon:calendar[title="Period"] `October 2018` - `October 2023` +
 *License*: EZE0CYJ2KB4QQ094 - *Issuer*: Amazon Web Services - {link-certification-aws}[Verify, role="external", window="_blank"]
 
