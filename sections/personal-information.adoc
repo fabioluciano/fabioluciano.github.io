@@ -1,8 +1,8 @@
 [[personal-informations]]
 
-.Fábio Luciano
 ****
-aaaa
+Degree in Systems Analysis and Development. 4 years experience as a network administrator and servers, 10 years of experience in software development, Linux operating systems and leading teams.
+My training is geared architecture and developing performative applications using technologies and open source tools.
 ****
 
 == icon:user[] Personal Informations
