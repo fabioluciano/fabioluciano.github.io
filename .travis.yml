@@ -22,7 +22,7 @@ after_failure:
 after_success:
   - cd output
   - git init
-    mv resume.html index.html
+  - mv resume.html index.html
   - git config user.name "${GH_USER_NAME}"
   - git config user.email "{GH_USER_EMAIL}"
   - git add . ; git commit -m "Deploy to GitHub Pages"
