@@ -10,14 +10,7 @@ before_install:
 script:
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/output resume.adoc
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output resume.adoc
-
-after_error: 
-  - docker logs asciidoc-to-html
-  - docker logs asciidoc-to-pdf
-
-after_failure:
-  - docker logs asciidoc-to-html
-  - docker logs asciidoc-to-pdf
+  - mv output/resume.html output/index.html
 
 deploy:
   provider: pages
@@ -26,12 +19,3 @@ deploy:
   github_token: $GH_TOKEN
   on:
     branch: development
-
-# after_success:
-#   - cd output
-#   - git init
-#   - mv resume.html index.html
-#   - git config user.name "${GH_USER_NAME}"
-#   - git config user.email "{GH_USER_EMAIL}"
-#   - git add . ; git commit -m "Deploy to GitHub Pages"
-#   - git push --force  "https://${GH_TOKEN}@${GH_REF}" gh-pages
