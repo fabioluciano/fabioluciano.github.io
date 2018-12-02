@@ -11,6 +11,8 @@
 :github: fabioluciano
 :whereami: Brasília, Brazil
 
+:link-resume-pdf: /resume.pdf
+
 
 :link-certification-zend-site: http://www.zend.com/en/yellow-pages/ZEND026303
 :link-certification-lpic-ot-site: https://cs.lpi.org/caf/Xamman/certification/verify/LPI000397664/sfuy2nckbr

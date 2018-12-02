@@ -1,8 +1,7 @@
 [[personal-informations]]
 
 ****
-Degree in Systems Analysis and Development. 4 years experience as a network administrator and servers, 10 years of experience in software development, Linux operating systems and leading teams.
-My training is geared architecture and developing performative applications using technologies and open source tools.
+Degree in Systems Analysis and Development. My training is geared architecture and developing performative applications using technologies and open source tools.
 ****
 
 == icon:user[] Personal Informations
@@ -10,6 +9,9 @@ My training is geared architecture and developing performative applications usin
 Contacts::
 * icon:phone[] Mobile Phone/WhatsApp: {telephone}
 * icon:skype[] Skype: {skype-id}
+
+*Social Media* `@fabioluciano` icon:twitter[link=https://twitter.com/fabioluciano, role="external", window="_blank", alt="@fabioluciano"] icon:github[link=https://github.com/fabioluciano, role="external", window="_blank"] icon:linkedin[1x,link=https://www.linkedin.com/in/fabioluciano/, role="external", window="_blank"]   icon:facebook[1x,link=https://facebook.com/fabioluciano, role="external", window="_blank"]
+
 WebSites::
 * http://naoimporta.com[Personal Blog]
 * http://fabioluciano.me
