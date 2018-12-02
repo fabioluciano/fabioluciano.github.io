@@ -9,9 +9,13 @@
 :twitter: fabioluciano
 :linkedin: fabioluciano
 :github: fabioluciano
-:whereami: Brasília, Brazil
+:whereami: Brasília, Brasil
 
-:link-resume-pdf: /resume.pdf
+:link-resume-en: /en/
+:link-resume-ptbr: /ptbr/
+
+:link-resume-en-pdf: /en/resume.pdf
+:link-resume-ptbr-pdf: /ptbr/resume.pdf
 
 
 :link-certification-zend-site: http://www.zend.com/en/yellow-pages/ZEND026303
@@ -23,3 +27,4 @@
 :link-ctis: http://www.ctis.com.br/
 :link-ministry-integration: http://www.integracao.gov.br/
 :link-ministry-mdic: http://www.mdic.gov.br/
+:link-sonda: https://www.sonda.com/br/

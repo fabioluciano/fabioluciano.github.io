@@ -4,14 +4,19 @@ services:
   - docker
 
 before_install:
-  - mkdir -p output
+  - mkdir -p output/{en,ptbr}
   - docker pull asciidoctor/docker-asciidoctor
 
 script:
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/output resume.adoc
-  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output resume.adoc
-  - mv output/resume.html output/index.html
-  - echo 'fabioluciano.me' > output/CNAME
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/output resume-en.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output resume-en.adoc
+  - mv output/resume-en.html output/en/index.html
+  - mv output/resume-en.pdf output/en/resume.pdf
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/output resume-ptbr.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output resume-ptbr.adoc
+  - mv output/resume-ptbr.html output/ptbr/index.html
+  - mv output/resume-ptbr.pdf output/ptbr/resume.pdf
+  - if [ -z "$CUSTOM_DOMAIN" ]; then echo $CUSTOM_DOMAIN > output/CNAME; fi
 
 deploy:
   provider: pages

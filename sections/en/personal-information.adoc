@@ -1,10 +1,10 @@
 [[personal-informations]]
 
+== icon:user[] Personal Informations
+
 ****
 Degree in Systems Analysis and Development. My training is geared architecture and developing performative applications using technologies and open source tools.
 ****
-
-== icon:user[] Personal Informations
 
 Contacts::
 * icon:phone[] Mobile Phone/WhatsApp: {telephone}

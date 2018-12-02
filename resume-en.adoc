@@ -1,0 +1,43 @@
+include::variables.adoc[]
+:toc2:
+:toclevels: 2
+:icons: font
+:iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+:linkattrs:
+:sectanchors:
+:sectlink:
+:experimental:
+:source-language: asciidoc
+:includedir: sections
+:authorinitials: F.L.N.G.
+:source-highlighter: pygments
+
+
+= Curriculum Vitae - {short-name}
+{full-name}
+v1.0, November 4, 2018: First
+
+ifdef::backend-html5[]
+[NOTE]
+====
+This page is written in `AsciiDoc` format. Its source code is available at https://github.com/fabioluciano/fabioluciano.github.io[ icon:github[] Resume repository, role="external", window="_blank"]. +
+You can download the link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version too avaliable;
+====
+
+[TIP]
+====
+There is a brazilian portuguese version avaliable. You can access as a link:{link-resume-ptbr}[ icon:link[] Website] , like these, or the  link:{link-resume-ptbr-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version
+====
+endif::[]
+
+include::{includedir}/en/personal-information.adoc[]
+
+include::{includedir}/en/technical-skills.adoc[]
+
+include::{includedir}/en/professional-experience.adoc[]
+
+include::{includedir}/en/education.adoc[]
+
+include::{includedir}/en/certifications.adoc[]
+
+include::{includedir}/en/opensource.adoc[]

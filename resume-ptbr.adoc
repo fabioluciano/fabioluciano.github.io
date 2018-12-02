@@ -9,6 +9,8 @@ include::variables.adoc[]
 :experimental:
 :source-language: asciidoc
 :includedir: sections
+:authorinitials: F.L.N.G.
+:source-highlighter: pygments
 
 = Curriculum Vitae - {short-name}
 {full-name}
@@ -22,14 +24,14 @@ You can download the link:{link-resume-pdf}[ icon:file-pdf-o[] PDF, role="extern
 ====
 endif::[]
 
-include::{includedir}/personal-information.adoc[]
+include::{includedir}/en/personal-information.adoc[]
 
-include::{includedir}/technical-skills.adoc[]
+include::{includedir}/en/technical-skills.adoc[]
 
-include::{includedir}/professional-experience.adoc[]
+include::{includedir}/en/professional-experience.adoc[]
 
-include::{includedir}/education.adoc[]
+include::{includedir}/en/education.adoc[]
 
-include::{includedir}/certifications.adoc[]
+include::{includedir}/en/certifications.adoc[]
 
-include::{includedir}/opensource.adoc[]
+include::{includedir}/en/opensource.adoc[]
