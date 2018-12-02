@@ -3,6 +3,25 @@
 
 === Software Architect at CTIS Tecnologia
 
+icon:calendar[title="Period"] `August 2016 to Now (On Going)` +
+icon:group[title="Employe"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-ministry-mdic}[Ministry of Development, Industry and Foreign Trade]
+
+- Implantação de Infraestrutura como código utilizando Terraform e CloudFormation
+- Implantação e configuração de ferramentas de integração e entrega contínua em ambiente empresarial (Jenkins, SonarQube, Sonatype Nexus, Gitlab, etc.);
+- Implantação e configuração de balanceamento de carga e escalabilidade em ferramentas de integração/entregra contínua e aplicações utilizando proxy reverso (HAProxy) e programaticamente, utilizando suas APIs.
+- Implementação e implantação da automatização de configurações e propriedades em ferramentas utilizando Apache Groovy
+- Implantação do conceito de nuvem privada para orquestração de recursos sob demanda;
+- Implantação de nuvens privadas e aplicações utilizando infraestrutura como código (IaC), com Ansible, Fabric e Docker Compose;
+- Composição de ambientes de integração/entrega contínua em ambientes distribuídos geograficamente;
+- Definição de processos de integração/entrega contínua de aplicações, bem como definições de requisitos mínimos de segurança e qualidade em aplicações;
+- Orquestração do processo de integração/entrega contínua utilizando ferramentas (Jenkins, SonarQube, Sonatype Nexus, Gitlab, etc.);
+- Implantação da automatização de testes unitários(JUnit,PHPUnit, Karma, Jasmine), funcionais(Cucumber, Codeception, Behat, Cucumberjs) e de carga(JMeter) em aplicações empresariais;
+- Realização do processo/integração continua com a implantação de pipelines;
+- Provisão de recursos computacionais utilizando cloud computing (AWS);
+
+=== Software Architect at CTIS Tecnologia
+
 icon:calendar[title="Period"] `April 2016 to July 2016` +
 icon:group[title="Employe"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Customer"] {link-ministry-mdic}[Ministry of Development, Industry and Foreign Trade]
@@ -106,6 +125,4 @@ icon:group[title="Employe"] {link-fabrica-ideias}[Fábrica de Ideias, role="exte
 - Creation of an handmade Load Balance to garantee the high avaliability of services in operation;
 - Use of subversion for versioning releases of the software developed.
 
-Technologies::
-
-PHP, MySQL, Javascript, HTML, CSS, Subversion, ShellScript 
+Technologies:: PHP, MySQL, Javascript, HTML, CSS, Subversion, ShellScript 

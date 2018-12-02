@@ -11,7 +11,7 @@ include::variables.adoc[]
 :includedir: sections
 
 = Curriculum Vitae - {short-name}
-{short-name} <{email}>
+{full-name}
 v1.0, November 4, 2018: First build
 
 ifdef::backend-html5[]

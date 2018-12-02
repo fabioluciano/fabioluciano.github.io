@@ -2,20 +2,20 @@
 
 == icon:plug[] Technical Skills
 
-*Programming Languages*: PHP, Java, JavaScript,  Shell Script, Python, C, Perl, (X)HTML e CSS
+Programming Languages:: PHP, Java, JavaScript,  Shell Script, Python, C, Perl, (X)HTML e CSS
 
 === PHP Specifics
-*Version Diversity*: PHP 4, 5 e 7 +
-*Frameworks*: Laravel 4/5, Zend Framework, Symfony, CakePHP, CodeIgniter, Kohana, Smarty Template Engine, FuelPHP, lithium. +
-*CMS*: Drupal, Joomla e Wordpress. +
-*Tools and Quality Assurance*: APC, PHPUnit, Xdebug, phpDocumentor, PEAR/PECL.
+Version Diversity:: PHP 4, 5 e 7
+Frameworks:: Laravel 4/5, Zend Framework, Symfony, CakePHP, CodeIgniter, Kohana, Smarty Template Engine, FuelPHP, lithium.
+CMS:: Drupal, Joomla e Wordpress.
+Tools and Quality Assurance:: APC, PHPUnit, Xdebug, phpDocumentor, PEAR/PECL.
 
 === Javascript / ECMAScript Specifics
-*Metalanguages*: TypeScript, CoffeeScript; +
-*Frameworks*: BackboneJS, AngularJS, EmberJS; +
-*Template Engines*: Jade, Haml, Handlebars, EJS; +
-*Task Runner*: Grunt, Gulp e Brocoli; +
-*Others*: Yeoman, Less
+Metalanguages:: TypeScript, CoffeeScript;
+Frameworks:: BackboneJS, AngularJS, EmberJS;
+Template Engines:: Jade, Haml, Handlebars, EJS;
+Task Runner:: Grunt, Gulp e Brocoli;
+Others:: Yeoman, Less
 
 === System Administration and Architecture
  * Experience in installation, configuration and maintenance of Linux servers (Debian, RHEL)
@@ -34,7 +34,7 @@
  * Experience in installation, configuration and maintenance containerized environments with docker
 
 === Other skills
-*Database*: Extensive knowledge of ANSI SQL, MySQL, PostgreSQL, SQLite, NoSQL (MongoDB, CouchDB, etc). +
-*Best pratices*: Extensive knowledge of object oriented principies and design patterns. +
-*High Availability*: Knowledge and experience in some techniques in scalability and redundancy, as database clustering / replication, partitioning and load balancing(Haproxy), and use Memcached and redis (cache). +
-*Other*: Regular expressions, Web Services (XML/JSON-RPC, REST, SOAP, etc), Search Engine Optimization (SEO). 
+Database:: Extensive knowledge of ANSI SQL, MySQL, PostgreSQL, SQLite, NoSQL (MongoDB, CouchDB, etc).
+Best practices:: Extensive knowledge of object oriented principies and design patterns.
+High Availability:: Knowledge and experience in some techniques in scalability and redundancy, as database clustering / replication, partitioning and load balancing(Haproxy), and use Memcached and redis (cache).
+Other:: Regular expressions, Web Services (XML/JSON-RPC, REST, SOAP, etc), Search Engine Optimization (SEO). 
