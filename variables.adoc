@@ -1,5 +1,5 @@
 :doc-version: 1.0
-:short-name: Fábio Luciano
+:author: Fábio Luciano
 :full-name: Fábio Luciano Nogueira de Góis
 :skype-id: fabiolucianodf
 :telephone: +55 61 981455884

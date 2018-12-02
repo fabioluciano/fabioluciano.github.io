@@ -24,7 +24,7 @@ You can download the link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="ext
 
 [TIP]
 ====
-There is a brazilian portuguese version avaliable. You can access as a link:{link-resume-ptbr}[ icon:link[] Website], like these, or the link:{link-resume-ptbr-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version
+There is a brazilian portuguese version avaliable. You can access as a link:{link-resume-ptbr}[ icon:link[] Website], like these, or the link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version
 ====
 endif::[]
 
