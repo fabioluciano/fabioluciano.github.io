@@ -23,10 +23,12 @@ endif::[]
 
 include::{includedir}/personal-information.adoc[]
 
+include::{includedir}/technical-skills.adoc[]
+
 include::{includedir}/professional-experience.adoc[]
 
 include::{includedir}/education.adoc[]
 
-include::{includedir}/technical-skills.adoc[]
-
 include::{includedir}/certifications.adoc[]
+
+include::{includedir}/opensource.adoc[]
