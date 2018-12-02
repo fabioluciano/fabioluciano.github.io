@@ -11,6 +11,7 @@ script:
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/output resume.adoc
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output resume.adoc
   - mv output/resume.html output/index.html
+  - echo 'fabioluciano.me' > output/CNAME
 
 deploy:
   provider: pages
