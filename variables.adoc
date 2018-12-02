@@ -11,7 +11,7 @@
 :github: fabioluciano
 :whereami: Brasília, Brazil
 
-:link-resume-pdf: /resume/resume.pdf
+:link-resume-pdf: /resume.pdf
 
 
 :link-certification-zend-site: http://www.zend.com/en/yellow-pages/ZEND026303
