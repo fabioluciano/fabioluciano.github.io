@@ -1,7 +1,7 @@
 [[professional-experience]]
 == icon:suitcase[] Professional Experience
 
-=== Software Architect at SONDA IT
+=== Solutions Architect at SONDA IT
 
 icon:calendar[title="Period"] `August 2016 to Now (On Going)` +
 icon:group[title="Employe"] {link-sonda}[SONDA IT, role="external", window="_blank"] +

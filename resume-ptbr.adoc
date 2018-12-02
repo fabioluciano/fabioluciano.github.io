@@ -19,8 +19,13 @@ v1.0, November 4, 2018: First build
 ifdef::backend-html5[]
 [NOTE]
 ====
-This page is written in `AsciiDoc` format. Its source code is available at https://github.com/fabioluciano/fabioluciano.github.io[ icon:github[] Resume repository, role="external", window="_blank"]. +
-You can download the link:{link-resume-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version too.
+Esta página está escrita no formato `AsciiDOC`. Seu código fonte está disponível em https://github.com/fabioluciano/fabioluciano.github.io[ icon:github[] Repositório do currículo, role="external", window="_blank"]. +
+Você pode fazer o download da versão em link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] também.
+====
+
+[TIP]
+====
+Há uma versão em inglês disponível. Você pode acessar como um link:{link-resume-ptbr}[ icon:link[] Website], como esta página, ou a versão em {link-resume-ptbr-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"].
 ====
 endif::[]
 
@@ -30,8 +35,8 @@ include::{includedir}/en/technical-skills.adoc[]
 
 include::{includedir}/en/professional-experience.adoc[]
 
-include::{includedir}/en/education.adoc[]
+include::{includedir}/ptbr/education.adoc[]
 
-include::{includedir}/en/certifications.adoc[]
+include::{includedir}/ptbr/certifications.adoc[]
 
 include::{includedir}/en/opensource.adoc[]

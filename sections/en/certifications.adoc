@@ -15,7 +15,7 @@ icon:calendar[title="Period"] `September 2018` - `September 2023` +
 
 === Zend Certified PHP Engineer
 icon:calendar[title="Period"] `February 2016` - ∞ +
-*License*: ZEND026303 - *Issuer*: Zend Technologies- {link-certification-zend-site}[Verify, role="external", window="_blank"]
+*License*: ZEND026303 - *Issuer*: Zend Technologies - {link-certification-zend-site}[Verify, role="external", window="_blank"]
 
 === icon:linux[] LPIC1 – Linux Profissionais Institute Certified – Level 1
 icon:calendar[title="Period"] `March 2012` +

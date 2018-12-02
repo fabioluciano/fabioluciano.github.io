@@ -11,22 +11,20 @@ include::variables.adoc[]
 :includedir: sections
 :authorinitials: F.L.N.G.
 :source-highlighter: pygments
+:doctitle: Curriculum Vitae - {short-name}
 
-
-= Curriculum Vitae - {short-name}
-{full-name}
-v1.0, November 4, 2018: First
+= {doctitle}
 
 ifdef::backend-html5[]
 [NOTE]
 ====
 This page is written in `AsciiDoc` format. Its source code is available at https://github.com/fabioluciano/fabioluciano.github.io[ icon:github[] Resume repository, role="external", window="_blank"]. +
-You can download the link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version too avaliable;
+You can download the link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version too;
 ====
 
 [TIP]
 ====
-There is a brazilian portuguese version avaliable. You can access as a link:{link-resume-ptbr}[ icon:link[] Website] , like these, or the  link:{link-resume-ptbr-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version
+There is a brazilian portuguese version avaliable. You can access as a link:{link-resume-ptbr}[ icon:link[] Website], like these, or the link:{link-resume-ptbr-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version
 ====
 endif::[]
 
