@@ -12,9 +12,7 @@ include::variables.adoc[]
 :authorinitials: F.L.N.G.
 :source-highlighter: pygments
 
-= Curriculum Vitae - {short-name}
-{full-name}
-v1.0, November 4, 2018: First build
+= {doctitle}
 
 ifdef::backend-html5[]
 [NOTE]
@@ -25,7 +23,7 @@ Você pode fazer o download da versão em link:{link-resume-en-pdf}[ icon:file-p
 
 [TIP]
 ====
-Há uma versão em inglês disponível. Você pode acessar como um link:{link-resume-en}[ icon:link[] Website], como esta página, ou a versão em {link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] .
+Há uma versão em inglês disponível. Você pode acessar como um link:{link-resume-en}[ icon:link[] Website], como esta página, ou a versão em link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] .
 ====
 endif::[]
 
