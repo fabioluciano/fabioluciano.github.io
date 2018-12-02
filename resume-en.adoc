@@ -11,7 +11,7 @@ include::variables.adoc[]
 :includedir: sections
 :authorinitials: F.L.N.G.
 :source-highlighter: pygments
-:doctitle: Curriculum Vitae - {short-name}
+:doctitle: Curriculum Vitae - {author}
 
 = {doctitle}
 
