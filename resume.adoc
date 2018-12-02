@@ -14,8 +14,12 @@ include::variables.adoc[]
 {short-name} <{email}>
 v1.0, November 4, 2018: First build
 
+ifdef::backend-html5[]
 [NOTE]
+====
 icon:pdf[title="PDF version"]  link:{link-resume-pdf}[Download the PDF version]
+====
+endif::[]
 
 include::{includedir}/personal-information.adoc[]
 
