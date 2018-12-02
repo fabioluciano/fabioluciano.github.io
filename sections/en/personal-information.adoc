@@ -7,11 +7,12 @@ Degree in Systems Analysis and Development. My training is geared architecture a
 ****
 
 Contacts::
+* icon:envelope[] E-mail: {email}
 * icon:phone[] Mobile Phone / WhatsApp / Telegram: {telephone}
 * icon:skype[] Skype: {skype-id}
 
 Social Media / Websites::
-* Github https://github.com/fabioluciano[ icon:github[] , role="external", window="_blank"] | LinkedIn https://www.linkedin.com/in/fabioluciano[ icon:linkedin[] , role="external", window="_blank"] |  Twitter https://twitter.com/fabioluciano[ icon:twitter[] , role="external", window="_blank"] | Facebook https://facebook.com/fabioluciano[ icon:facebook[] , role="external", window="_blank"] | Instagram https://instagram.com/fabioluciano[ icon:instagram[] , role="external", window="_blank"] | Telegram https://t.me/fabioluciano[ icon:telegram[] , role="external", window="_blank"]
+* https://github.com/fabioluciano[ Github icon:github[] , role="external", window="_blank"] | https://www.linkedin.com/in/fabioluciano[ LinkedIn icon:linkedin[] , role="external", window="_blank"] | https://twitter.com/fabioluciano[ Twitter icon:twitter[] , role="external", window="_blank"] |  https://facebook.com/fabioluciano[ Facebook icon:facebook[] , role="external", window="_blank"] |  https://instagram.com/fabioluciano[ Instagram icon:instagram[] , role="external", window="_blank"] |  https://t.me/fabioluciano[ Telegram icon:comment[] , role="external", window="_blank"]
 * http://naoimporta.com[Personal Blog]
 * http://fabioluciano.me[Resume] - This page
 * http://gluejs.com[GlueJS] - A build tool like Gulp, but better
