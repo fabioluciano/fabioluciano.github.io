@@ -28,3 +28,9 @@
 :link-ministry-integration: http://www.integracao.gov.br/
 :link-ministry-mdic: http://www.mdic.gov.br/
 :link-sonda: https://www.sonda.com/br/
+
+:link-phpdocbridge: https://github.com/phpdocbrbridge
+:link-phpdoc-tranlation-page: http://doc.php.net/revcheck.php?p=files&user=fabioluciano&lang=pt_BR
+:link-phppeople: http://people.php.net/fabioluciano
+
+:link-terraform-integr8: https://registry.terraform.io/modules/integr8
