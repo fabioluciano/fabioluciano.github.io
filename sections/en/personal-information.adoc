@@ -13,6 +13,6 @@ Contacts::
 Social Media / Websites::
 * Github https://github.com/fabioluciano[ icon:github[] , role="external", window="_blank"] | LinkedIn https://www.linkedin.com/in/fabioluciano[ icon:linkedin[] , role="external", window="_blank"] |  Twitter https://twitter.com/fabioluciano[ icon:twitter[] , role="external", window="_blank"] | Facebook https://facebook.com/fabioluciano[ icon:facebook[] , role="external", window="_blank"] | Instagram https://instagram.com/fabioluciano[ icon:instagram[] , role="external", window="_blank"] | Telegram https://t.me/fabioluciano[ icon:telegram[] , role="external", window="_blank"]
 * http://naoimporta.com[Personal Blog]
-* http://fabioluciano.me[This page]
-* http://gluejs.com[GlueJS - A build tool like GlueJS, but better]
-* http://integr8.me[Integr8 - Continuous Integration/Deployment/Quality company]
+* http://fabioluciano.me[Resume] - This page
+* http://gluejs.com[GlueJS] - A build tool like Gulp, but better
+* http://integr8.me[Integr8] - Continuous Integration/Deployment/Quality company
