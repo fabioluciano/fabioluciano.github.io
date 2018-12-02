@@ -29,7 +29,7 @@ Há uma versão em inglês disponível. Você pode acessar como um link:{link-re
 ====
 endif::[]
 
-include::{includedir}/en/personal-information.adoc[]
+include::{includedir}/ptbr/personal-information.adoc[]
 
 include::{includedir}/en/technical-skills.adoc[]
 

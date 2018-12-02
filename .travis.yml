@@ -10,7 +10,7 @@ before_install:
 script:
   - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -D /documents/output resume-en.adoc resume-ptbr.adoc
   - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output resume-en.adoc resume-ptbr.adoc
-  - mv output/resume-en.html output/index.html
+  - cp output/resume-en.html output/index.html
   - mv output/resume-en.html output/en/index.html
   - mv output/resume-en.pdf output/en/resume.pdf
   - mv output/resume-ptbr.html output/ptbr/index.html
