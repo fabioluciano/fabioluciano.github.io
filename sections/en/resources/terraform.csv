@@ -1,0 +1,4 @@
+Terraform Registry;Repositório;Descrição
+link:https://registry.terraform.io/modules/integr8/devops-vpc[icon:code[] devops-vpc];link:https://github.com/integr8/terraform-aws-devops-vpc[icon:github[] Repositório];Script terraform para criação de uma VPC
+link:https://registry.terraform.io/modules/integr8/devops-selenium[icon:code[] devops-selenium];link:https://github.com/integr8/terraform-aws-devops-selenium[icon:github[] Repositório];Script terraform para criação uma stack Selenium com ECS
+link:https://registry.terraform.io/modules/integr8/devops-nexus[icon:code[] devops-nexus];link:https://github.com/integr8/terraform-aws-devops-nexus[icon:github[] Repositório];Script terraform para criação de uma stack Nexus com ECS

@@ -2,3 +2,43 @@
 == icon:code[] Open Source
 
 === PHP Documentation
+
+{link-phpdocbridge} + 
+{link-phpdoc-tranlation-page} + 
+{link-phppeople}
+
+=== Docker Images
+
+[%autowidth.stretch, format="csv", separator=";", options="header"]
+|===
+include::./resources/docker.csv[]
+|===
+
+
+=== Terraform Scripts
+
+{link-terraform-integr8}
+
+[%autowidth.stretch, format="csv", separator=";", options="header"]
+|===
+include::./resources/terraform.csv[]
+|===
+
+
+=== Ansible Galaxy Roles
+
+[%autowidth.stretch, format="csv", separator=";", options="header"]
+|===
+include::./resources/ansible.csv[]
+|===
+
+
+=== Other Projects
+
+https://github.com/fabioluciano/xfce4-whiskermenu-plugin +
+https://github.com/mdh34/hackup + 
+https://github.com/docker/docker.github.io + 
+https://github.com/fabioluciano/generator-projeto + 
+https://github.com/fabioluciano/gulp-recipe + 
+https://github.com/fabioluciano/devcolors + 
+https://github.com/fabioluciano/ubuntued_extension

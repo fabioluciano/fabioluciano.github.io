@@ -16,4 +16,7 @@ Mídias Sociais / Websites::
 * http://naoimporta.com[Blog pessoal]
 * http://fabioluciano.me[Currículo] - Esta página
 * http://gluejs.com[GlueJS] - Uma ferramenta de construção como o Gulp, porém melhor
-* http://integr8.me[Integr8] - Empresa voltada a implantação de esteiras de Integração/ Implantação / Qualidade contínua
+* http://integr8.me[Integr8] - Empresa voltada a implantação de esteiras de Integração / Implantação / Qualidade contínua
+
+icon:map-marker[] Localização::
+link:https://goo.gl/maps/CVjggk7kCeM2[{whereami}, role="external", window="_blank"]

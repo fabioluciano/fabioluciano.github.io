@@ -1,18 +1,27 @@
 [[education]]
 == icon:graduation-cap[] Education
 
-=== Centro Universitário IESB - Systems Analysis and Development
+=== Academic
+
+==== Centro Universitário IESB - Systems Analysis and Development
 icon:calendar[title="Period"] `2012 - 2014` - *Bacharelor Diploma*
 Software Analyst and Developer
 
-=== Centro Universitário IESB - Extension Course in System Analysis and Design
+==== Centro Universitário IESB - Extension Course in System Analysis and Design
 icon:calendar[title="Period"] `2012 - 2012` - *Extension Course*
 Software Analyst and Developer
 
-=== Centro Universitário IESB - Extension Course in IT Support
+==== Centro Universitário IESB - Extension Course in IT Support
 icon:calendar[title="Period"] `2013 - 2013` - *Extension Course*
 IT Analyst
 
-=== Centro Universitário IESB - Computer Science
+==== Centro Universitário IESB - Computer Science
 icon:calendar[title="Period"] `2007 - Not concluded`
 Computer Scientist
+
+=== Language Skills
+
+Portuguese:: Native language
+English:: Reading(fluent), Writing(intermediate) e speaking(intermediate)
+Spanish:: Reading(fluent), Writing(intermediate) e speaking(intermediate)
+French:: Reading(basic), Writing(basic) e speaking(basic)

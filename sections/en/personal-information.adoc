@@ -16,4 +16,8 @@ Social Media / Websites::
 * http://naoimporta.com[Personal Blog]
 * http://fabioluciano.me[Resume] - This page
 * http://gluejs.com[GlueJS] - A build tool like Gulp, but better
-* http://integr8.me[Integr8] - Continuous Integration/Deployment/Quality company
+* http://integr8.me[Integr8] - Continuous Integration / Deployment / Quality company
+
+
+icon:map-marker[] Location::
+link:https://goo.gl/maps/CVjggk7kCeM2[{whereami}, role="external", window="_blank"]

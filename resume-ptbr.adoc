@@ -35,8 +35,9 @@ include::{includedir}/en/technical-skills.adoc[]
 
 include::{includedir}/en/professional-experience.adoc[]
 
+include::{includedir}/ptbr/opensource.adoc[]
+
 include::{includedir}/ptbr/education.adoc[]
 
 include::{includedir}/ptbr/certifications.adoc[]
 
-include::{includedir}/en/opensource.adoc[]

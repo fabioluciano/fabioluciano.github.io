@@ -9,7 +9,7 @@
 :twitter: fabioluciano
 :linkedin: fabioluciano
 :github: fabioluciano
-:whereami: Brasília, Brasil
+:whereami: 'Brasília, Brasil'
 
 :link-resume-en: /en/
 :link-resume-ptbr: /ptbr/
