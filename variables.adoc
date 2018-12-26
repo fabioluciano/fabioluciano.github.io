@@ -1,8 +1,23 @@
+:toc2:
+:toclevels: 2
+:icons: font
+:iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+:linkattrs:
+:sectanchors:
+:sectlink:
+:experimental:
+:source-language: asciidoc
+:includedir: sections
 :doc-version: 1.0
 :author: Fábio Luciano
 :full-name: Fábio Luciano Nogueira de Góis
+:authorinitials: F.L.N.G.
+:source-highlighter: pygments
+:google-analytics-account: UA-131372489-1
+:doctitle: Curriculum Vitae - {author}
+
 :skype-id: fabiolucianodf
-:telephone: +55 61 981455884
+:telephone: tel:+5561981455884[]
 :email: fabio@naoimporta.com
 :facebook: fabioluciano
 :instagram: fabioluciano
@@ -10,6 +25,7 @@
 :linkedin: fabioluciano
 :github: fabioluciano
 :whereami: 'Brasília, Brasil'
+
 
 :link-resume-en: /en/
 :link-resume-ptbr: /ptbr/

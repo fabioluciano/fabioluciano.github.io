@@ -6,10 +6,11 @@ services:
 before_install:
   - mkdir -p output/{en,ptbr}
   - docker pull asciidoctor/docker-asciidoctor
+  - git clone https://github.com/asciidoctor/asciidoctor-extensions-lab
 
 script:
-  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -D /documents/output resume-en.adoc resume-ptbr.adoc
-  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output resume-en.adoc resume-ptbr.adoc
+  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor -r ./asciidoctor-extensions-lab/lib/google-analytics-docinfoprocessor.rb -r ./asciidoctor-extensions-lab/lib/tel-inline-macro.rb -D /documents/output resume-en.adoc resume-ptbr.adoc
+  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf -r ./asciidoctor-extensions-lab/blob/master/lib/tel-inline-macro.rb -r ./asciidoctor-extensions-lab/lib/tel-inline-macro.rb -D /documents/output resume-en.adoc resume-ptbr.adoc
   - cp output/resume-en.html output/index.html
   - mv output/resume-en.html output/en/index.html
   - mv output/resume-en.pdf output/en/resume.pdf

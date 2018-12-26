@@ -1,18 +1,5 @@
 include::variables.adoc[]
-:toc2:
-:toclevels: 2
-:icons: font
-:iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-:linkattrs:
-:sectanchors:
-:sectlink:
-:experimental:
-:source-language: asciidoc
-:includedir: sections
-:authorinitials: F.L.N.G.
-:source-highlighter: pygments
 :toc-title: Índice
-:doctitle: Curriculum Vitae - {author}
 
 = {doctitle}
 
