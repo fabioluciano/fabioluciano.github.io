@@ -1,5 +1,11 @@
 include::variables.adoc[]
+
+ifdef::backend-pdf[:notitle:]
+ifdef::backend-pdf[:!toc2:]
+ifdef::backend-pdf[]
+[discrete]
 = {doctitle}
+endif::[]
 
 ifdef::backend-html5[]
 [NOTE]
@@ -13,6 +19,8 @@ You can download the link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="ext
 There is a brazilian portuguese version avaliable. You can access as a link:{link-resume-ptbr}[ icon:link[] Website], like these, or the link:{link-resume-ptbr-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] version.
 ====
 endif::[]
+
+include::{includedir}/en/cover-letter.adoc[]
 
 include::{includedir}/en/personal-information.adoc[]
 

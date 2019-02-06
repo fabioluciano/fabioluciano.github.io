@@ -1,7 +1,12 @@
 include::variables.adoc[]
 :toc-title: Índice
 
+ifdef::backend-pdf[:notitle:]
+ifdef::backend-pdf[:!toc2:]
+ifdef::backend-pdf[]
+[discrete]
 = {doctitle}
+endif::[]
 
 ifdef::backend-html5[]
 [NOTE]
@@ -15,6 +20,8 @@ Você pode fazer o download da versão em link:{link-resume-en-pdf}[ icon:file-p
 Há uma versão em inglês disponível. Você pode acessar o link:{link-resume-en}[ icon:link[] Website], como esta página, ou a versão em link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"].
 ====
 endif::[]
+
+include::{includedir}/ptbr/cover-letter.adoc[]
 
 include::{includedir}/ptbr/personal-information.adoc[]
 

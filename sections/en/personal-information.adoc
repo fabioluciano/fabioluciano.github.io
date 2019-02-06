@@ -1,10 +1,5 @@
 [[personal-informations]]
-
 == icon:user[] Personal Informations
-
-****
-Degree in Systems Analysis and Development. My training is geared architecture and developing performative applications using technologies and open source tools.
-****
 
 Contacts::
 * icon:envelope[] E-mail: {email}
