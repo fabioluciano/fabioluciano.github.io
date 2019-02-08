@@ -1,27 +1,10 @@
 font:
   catalog:
-    # Noto Serif:
-    #   normal: notoserif-regular-subset.ttf
-    #   bold: notoserif-bold-subset.ttf
-    #   italic: notoserif-italic-subset.ttf
-    #   bold_italic: notoserif-bold_italic-subset.ttf
     Ubuntu:
       normal: Ubuntu-R.ttf
       bold: Ubuntu-B.ttf
       italic: Ubuntu-RI.ttf
       bold_italic: Ubuntu-RI.ttf
-  #   M+ 1mn:
-  #     normal: mplus1mn-regular-ascii-conums.ttf
-  #     bold: mplus1mn-bold-ascii.ttf
-  #     italic: mplus1mn-italic-ascii.ttf
-  #     bold_italic: mplus1mn-bold_italic-ascii.ttf
-  #   M+ 1p Fallback:
-  #     normal: mplus1p-regular-fallback.ttf
-  #     bold: mplus1p-regular-fallback.ttf
-  #     italic: mplus1p-regular-fallback.ttf
-  #     bold_italic: mplus1p-regular-fallback.ttf
-  # fallbacks:
-  #   - M+ 1p Fallback
 page:
   background_color: ffffff
   layout: portrait

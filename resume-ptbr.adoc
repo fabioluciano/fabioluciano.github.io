@@ -12,7 +12,7 @@ ifdef::backend-html5[]
 [NOTE]
 ====
 Esta página está escrita no formato `AsciiDOC`. Seu código fonte está disponível em https://github.com/fabioluciano/fabioluciano.github.io[ icon:github[] Repositório do currículo, role="external", window="_blank"]. +
-Você pode fazer o download da versão em link:{link-resume-en-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] também.
+Você pode fazer o download da versão em link:{link-resume-ptbr-pdf}[ icon:file-pdf-o[] PDF, role="external", window="_blank"] também.
 ====
 
 [TIP]
@@ -25,23 +25,12 @@ include::{includedir}/ptbr/cover-letter.adoc[]
 
 include::{includedir}/ptbr/personal-information.adoc[]
 
-'''
-
-include::{includedir}/ptbr/technical-skills.adoc[]
-
-'''
-
-include::{includedir}/en/professional-experience.adoc[]
-
-'''
-
-include::{includedir}/ptbr/opensource.adoc[]
-
-'''
-
 include::{includedir}/ptbr/education.adoc[]
-
-'''
 
 include::{includedir}/ptbr/certifications.adoc[]
 
+include::{includedir}/ptbr/technical-skills.adoc[]
+
+include::{includedir}/ptbr/professional-experience.adoc[]
+
+include::{includedir}/ptbr/opensource.adoc[]

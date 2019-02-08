@@ -24,13 +24,12 @@ include::{includedir}/en/cover-letter.adoc[]
 
 include::{includedir}/en/personal-information.adoc[]
 
+include::{includedir}/en/education.adoc[]
+
+include::{includedir}/en/certifications.adoc[]
+
 include::{includedir}/en/technical-skills.adoc[]
 
 include::{includedir}/en/professional-experience.adoc[]
 
 include::{includedir}/en/opensource.adoc[]
-
-include::{includedir}/en/education.adoc[]
-
-include::{includedir}/en/certifications.adoc[]
-
