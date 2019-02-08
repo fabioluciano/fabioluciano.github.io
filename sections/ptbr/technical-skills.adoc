@@ -1,14 +1,14 @@
 [[technical-skills]]
 
-== icon:plug[] Technical Skills
+== icon:plug[] Conhecimentos Técnicos
 
-Programming Languages:: PHP, Java, JavaScript, Shell Script, Python, C, Perl, (X)HTML and CSS.
+Linguagens de Progração:: PHP, Java, JavaScript,  Shell Script, Python, C, Perl, (X)HTML e CSS
 
-=== PHP Specifics
-Version Diversity:: PHP 4, 5 and 7
+=== Específicos em PHP
+Diversidade de versão:: PHP 4, 5 e 7
 Frameworks:: Laravel 4/5, Zend Framework, Symfony, CakePHP, CodeIgniter, Kohana, Smarty Template Engine, FuelPHP, lithium.
 CMS:: Drupal, Joomla e Wordpress.
-Tools and Quality Assurance:: APC, PHPUnit, Xdebug, phpDocumentor, PEAR/PECL.
+Ferramentas e QA:: APC, PHPUnit, Xdebug, phpDocumentor e PEAR/PECL.
 
 === Javascript / ECMAScript Specifics
 Metalanguages:: TypeScript, CoffeeScript;

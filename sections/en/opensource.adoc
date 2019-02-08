@@ -12,7 +12,7 @@
 [width="100%", format="csv", separator=";", options="header"]
 |===
 Docker HUB;Repository
-include::../resources/docker.csv[]
+include::../../resources/data/docker.csv[]
 |===
 
 
@@ -23,7 +23,7 @@ include::../resources/docker.csv[]
 [width="100%", format="csv", separator=";", options="header"]
 |===
 Terraform Registry;Repository
-include::../resources/terraform.csv[]
+include::../../resources/data/terraform.csv[]
 |===
 
 
@@ -32,7 +32,7 @@ include::../resources/terraform.csv[]
 [width="100%", format="csv", separator=";", options="header"]
 |===
 Ansible Galaxy;Repository
-include::../resources/ansible.csv[]
+include::../../resources/data/ansible.csv[]
 |===
 
 
