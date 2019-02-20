@@ -43,6 +43,7 @@
 :link-ctis: http://www.ctis.com.br/
 :link-ministry-integration: http://www.integracao.gov.br/
 :link-ministry-mdic: http://www.mdic.gov.br/
+:link-ministry-mctic: http://www.mctic.gov.br
 :link-sonda: https://www.sonda.com/br/
 
 :link-phpdocbridge: https://github.com/phpdocbrbridge
@@ -50,3 +51,4 @@
 :link-phppeople: http://people.php.net/fabioluciano
 
 :link-terraform-integr8: https://registry.terraform.io/modules/integr8
+:link-ansible-galaxy-fabioluciano: https://galaxy.ansible.com/fabioluciano

@@ -29,6 +29,8 @@ include::../../resources/data/terraform.csv[]
 
 === Ansible Galaxy Roles
 
+{link-ansible-galaxy-fabioluciano}
+
 [width="100%", format="csv", separator=";", options="header"]
 |===
 Ansible Galaxy;Repositório
