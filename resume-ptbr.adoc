@@ -25,12 +25,22 @@ include::{includedir}/ptbr/cover-letter.adoc[]
 
 include::{includedir}/ptbr/personal-information.adoc[]
 
+'''
+
 include::{includedir}/ptbr/education.adoc[]
+
+'''
 
 include::{includedir}/ptbr/certifications.adoc[]
 
+'''
+
 include::{includedir}/ptbr/technical-skills.adoc[]
 
+'''
+
 include::{includedir}/ptbr/professional-experience.adoc[]
+
+'''
 
 include::{includedir}/ptbr/opensource.adoc[]

@@ -17,6 +17,6 @@ icon:calendar[title="Período"] `Setembro 2018` - `Setembro 2023` +
 icon:calendar[title="Período"] `Fevereiro 2016` - ∞ +
 *Licença*: ZEND026303 - *Emissor*: Zend Technologies - {link-certification-zend-site}[Verificar, role="external", window="_blank"]
 
-=== icon:linux[] LPIC1 – Linux Profissionais Institute Certified – Level 1
+=== LPIC1 – Linux Profissionais Institute Certified – Level 1
 icon:calendar[title="Período"] `Março 2012` +
 *Licença*: LPI000397664 - *Emissor*: Linux Professional Institute - {link-certification-lpic-ot-site}[Verificar, role="external", window="_blank"]

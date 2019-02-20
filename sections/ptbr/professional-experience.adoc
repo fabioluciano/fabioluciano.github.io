@@ -21,8 +21,6 @@ icon:chevron-circle-right[title="Cliente"] Software Factory
 
 Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
 
-'''
-
 === Arquiteto de Software em CTIS Tecnologia
 
 icon:calendar[title="Período"] `Julho de 2016 até Dezembro de 2017` +
@@ -39,8 +37,6 @@ icon:chevron-circle-right[title="Cliente"] {link-ministry-mctic}[Ministério da 
 - Implementação da implantação automatizada dos microserviços utilizando o Ansible;
 
 Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
-
-'''
 
 === Arquiteto de Software em CTIS Tecnologia
 
@@ -64,8 +60,6 @@ icon:chevron-circle-right[title="Cliente"] {link-ministry-mdic}[Ministério do D
 
 Tecnologias:: ...
 
-'''
-
 === Software Architect at CTIS Tecnologia
 
 icon:calendar[title="Período"] `March 2015 to December 2015` +
@@ -82,8 +76,6 @@ icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry 
 
 Tecnologias:: ...
 
-'''
-
 === PHP Developer at CTIS Tecnologia
 
 icon:calendar[title="Período"] `February 2014 to March 2015` +
@@ -94,8 +86,6 @@ icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry 
 - Frontend development using HTML, Javascript (JQuery) and CSS.
 
 Tecnologias:: ...
-
-'''
 
 === SCM Analyst at Gestão TI
 
@@ -110,8 +100,6 @@ icon:group[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", win
 
 Tecnologias:: ...
 
-'''
-
 === PHP Developer at Gestão TI
 
 icon:calendar[title="Período"] `March 2012 to April 2012` +
@@ -122,8 +110,6 @@ icon:group[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", win
 - Migration from legacy ASP softwares to PHP.
 
 Tecnologias:: ...
-
-'''
 
 === System Administrator at Fábrica de Ideias
 
@@ -138,8 +124,6 @@ icon:group[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="e
 - Monitoring servers and services using Zabbix.
 
 Tecnologias:: ...
-
-'''
 
 === PHP Developer at Fábrica de Ideias
 
