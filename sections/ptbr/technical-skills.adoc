@@ -2,38 +2,40 @@
 
 == icon:plug[] Conhecimentos Técnicos
 
-Linguagens de Progração:: PHP, Java, JavaScript,  Shell Script, Python, C, Perl, (X)HTML e CSS
+Linguagens de Progração:: PHP, Java, JavaScript, Shell Script, Python, C, Perl, (X)HTML e CSS
 
-=== Específicos em PHP
+=== Arquitetura de Soluções / DevOps
+
+=== PHP
 Diversidade de versão:: PHP 4, 5 e 7
 Frameworks:: Laravel 4/5, Zend Framework, Symfony, CakePHP, CodeIgniter, Kohana, Smarty Template Engine, FuelPHP, lithium.
 CMS:: Drupal, Joomla e Wordpress.
 Ferramentas e QA:: APC, PHPUnit, Xdebug, phpDocumentor e PEAR/PECL.
 
-=== Específico em Javascript / ECMAScript
+=== Javascript / ECMAScript
 Metalinguagens:: TypeScript e CoffeeScript;
 Frameworks:: BackboneJS, AngularJS, Angular.io e EmberJS;
 Template Engines:: Jade, Haml, Handlebars e EJS;
 Task Runner:: Grunt, Gulp e Brocoli;
 Outros:: Yeoman, Less
 
-=== Específico em Arquitetura de Soluções Cloud / DevOps
 
-=== System Administration and Architecture
- * Experience in installation, configuration and maintenance of Linux servers (Debian, RHEL)
- * Experience in installation, configuration, maintenance application servers such as Apache, nginx, lighttpd, cherooke, jboss, and wildfly.
- * Experience in installation, configuration, maintenance and tuning on database servers such as MySQL, PostgreSQL and Oracle Database.
- * Experience creating and maintaining rules for Netfilter / iptables.
- * DNS Server Maintenance with BIND and DHCP.
- * Experience creating, configuring and maintaining distributed version servers (Git and Mercurial) and centralized ones (SVN).
- * Experience with virtualized environments with kvm, virtualbox and openvz.
- * Experience in installation, configuration and maintenance of backup servers with Bacula.
- * Experience with integration of mixed environments with Samba.
- * Experience with installation, configuration and maintenance environments using reverse proxy with Squid (Traffic / Access Control and Security).
- * Experience with installation, configuration and maintenance of continuous integration environments using Hudson / Jenkins.
- * Experience with installation, configuration and maintenance of software quality assurance environments using SonarQube.
- * Experience with installation, configuration and maintenance of  Sonatype Nexus.
- * Experience in installation, configuration and maintenance containerized environments with docker
+=== Administração de Sistemas
+* Instalação, configuração, manutenção e tunning em:
+** Servidores linux(Derivados do Debian e RHEL);
+** Servidores de aplicação como Apache Httpd, Nginx, Lighttpd, Cherooke, Jboss AS e Wildfly;
+** Servidores de bancos de dados como MySQL, PostgreSQL and Oracle Database;
+* Experience creating and maintaining rules for Netfilter / iptables.
+* DNS Server Maintenance with BIND and DHCP.
+* Experience creating, configuring and maintaining distributed version servers (Git and Mercurial) and centralized ones (SVN).
+* Experience with virtualized environments with kvm, virtualbox and openvz.
+* Experience in installation, configuration and maintenance of backup servers with Bacula.
+* Experience with integration of mixed environments with Samba.
+* Experience with installation, configuration and maintenance environments using reverse proxy with Squid (Traffic / Access Control and Security).
+* Experience with installation, configuration and maintenance of continuous integration environments using Hudson / Jenkins.
+* Experience with installation, configuration and maintenance of software quality assurance environments using SonarQube.
+* Experience with installation, configuration and maintenance of  Sonatype Nexus.
+* Experience in installation, configuration and maintenance containerized environments with docker
 
 === Outras habilidates
 Database:: Extensive knowledge of ANSI SQL, MySQL, PostgreSQL, SQLite, NoSQL (MongoDB, CouchDB, etc).

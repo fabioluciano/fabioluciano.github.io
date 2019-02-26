@@ -5,6 +5,8 @@ font:
       bold: Ubuntu-B.ttf
       italic: Ubuntu-RI.ttf
       bold_italic: Ubuntu-RI.ttf
+  fallbacks:
+    - Ubuntu
 page:
   background_color: ffffff
   layout: portrait
@@ -16,7 +18,7 @@ page:
 base:
   align: justify
   # color as hex string (leading # is optional)
-  font_color: 2d3436
+  font_color: 2f3640
   # color as RGB array
   #font_color: [51, 51, 51]
   # color as CMYK array (approximated)
@@ -52,7 +54,7 @@ horizontal_rhythm: $base_line_height_length
 # QUESTION should vertical_spacing be block_spacing instead?
 vertical_spacing: $vertical_rhythm
 link:
-  font_color: 0984e3
+  font_color: 40739e
 # literal is currently used for inline monospaced in prose and table cells
 literal:
   font_color: $base_font_color
@@ -62,15 +64,25 @@ heading:
   align: left
   #font_color: 181818
   font_color: 333333
-  font_family: $base_font_family
-  font_style: bold
+  font_family: Ubuntu
+  font_style: normal
   # h1 is used for part titles (book doctype) or the doctitle (article doctype)
-  h1_font_size: floor($base_font_size * 2.6)
+  h1_font_size: floor($base_font_size * 2.4)
   h1_align: center
+  h1_font_style: bold
   # h2 is used for chapter titles (book doctype only)
   h2_font_size: floor($base_font_size * 1.8)
+  h2_font_color: 192a56
+  h2_text_transform: uppercase
+  h2_font_style: bold
+
   h3_font_size: round($base_font_size * 1.3)
+  h3_font_color: 273c75
+  h3_font_style: bold
+
   h4_font_size: $base_font_size_large
+  h4_font_style: bold
+  
   h5_font_size: $base_font_size
   h6_font_size: $base_font_size_small
   #line_height: 1.4
