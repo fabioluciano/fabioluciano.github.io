@@ -82,7 +82,7 @@ heading:
 
   h4_font_size: $base_font_size_large
   h4_font_style: bold
-  
+
   h5_font_size: $base_font_size
   h6_font_size: $base_font_size_small
   #line_height: 1.4
@@ -187,8 +187,8 @@ prose:
   margin_top: $block_margin_top
   margin_bottom: $block_margin_bottom
 sidebar:
-  background_color: dfe6e9
-  border_color: dfe6e9
+  background_color: eeeeee
+  border_color: eeeeee
   border_radius: $base_border_radius
   border_width: $base_border_width
   # FIXME reenable padding bottom once margin collapsing is implemented
