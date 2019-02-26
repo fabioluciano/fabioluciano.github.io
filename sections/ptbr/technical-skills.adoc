@@ -5,6 +5,8 @@
 Linguagens de Progração:: PHP, Java, JavaScript, Shell Script, Python, C, Perl, (X)HTML e CSS
 
 === Arquitetura de Soluções / DevOps
+Projeto/Implantação de Soluções:: ...
+Desenvolvimento de Aplicações:: ...
 
 === PHP
 Diversidade de versão:: PHP 4, 5 e 7
