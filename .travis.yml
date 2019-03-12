@@ -2,11 +2,11 @@ sudo: required
 language: python
 services:
   - docker
-install: 
-  - pip install -r python/requirements.txt
 before_install:
   - mkdir -p output/{en,ptbr}
-
+install: 
+  - pip3 install -r python/requirements.txt
+  - python3 python/main.py
 script:
   - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ -e 'ASCIIDOCTOR_THEME=asciidoctor' -e 'ASCIIDOCTOR_PLUGIN=google-analytics-docinfoprocessor,tel-inline-macro' integr8/alpine-asciidoctor-helper html resume-en.adoc resume-ptbr.adoc
   - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ -e 'ASCIIDOCTOR_PLUGIN=google-analytics-docinfoprocessor,tel-inline-macro' -e 'ASCIIDOCTOR_PDF_THEMES_DIR=resources/themes' -e 'ASCIIDOCTOR_PDF_THEME=default' -e 'ASCIIDOCTOR_PDF_FONTS_DIR=resources/fonts' integr8/alpine-asciidoctor-helper pdf resume-en.adoc resume-ptbr.adoc
