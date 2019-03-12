@@ -11,10 +11,9 @@
 
 [width="100%", format="csv", separator=";", options="header"]
 |===
-Docker HUB;Repository
+Name,Repository,Description,Documentation
 include::../../resources/data/docker.csv[]
 |===
-
 
 === Terraform Scripts
 
@@ -22,19 +21,27 @@ include::../../resources/data/docker.csv[]
 
 [width="100%", format="csv", separator=";", options="header"]
 |===
-Terraform Registry;Repository
+Name,Repository,Description,Documentation
 include::../../resources/data/terraform.csv[]
 |===
-
 
 === Ansible Galaxy Roles
 
 [width="100%", format="csv", separator=";", options="header"]
 |===
-Ansible Galaxy;Repository
+Name,Repository,Description,Documentation
 include::../../resources/data/ansible.csv[]
 |===
 
+=== Packer
+
+{link-ansible-galaxy-fabioluciano}
+
+[width="100%", format="csv", separator=",", options="header"]
+|===
+Name,Repository,Description,Documentation
+include::../../resources/data/packer.csv[]
+|===
 
 === Other Projects
 
