@@ -6,8 +6,8 @@ services:
   - docker
 before_install:
   - mkdir -p output/{en,ptbr}
+  - mkdir -p resources/data
 install:
-  - cd $TRAVIS_BUILD_DIR
   - pip3 install -r python/requirements.txt
   - python3 python/main.py
 script:
