@@ -9,7 +9,7 @@
 
 === Docker Images
 
-[width="100%", format="csv", separator=";", options="header"]
+[width="100%", format="csv", separator=",", options="header"]
 |===
 Name,Repository,Description,Documentation
 include::../../resources/data/docker.csv[]
@@ -19,7 +19,7 @@ include::../../resources/data/docker.csv[]
 
 {link-terraform-integr8}
 
-[width="100%", format="csv", separator=";", options="header"]
+[width="100%", format="csv", separator=",", options="header"]
 |===
 Name,Repository,Description,Documentation
 include::../../resources/data/terraform.csv[]
@@ -27,7 +27,7 @@ include::../../resources/data/terraform.csv[]
 
 === Ansible Galaxy Roles
 
-[width="100%", format="csv", separator=";", options="header"]
+[width="100%", format="csv", separator=",", options="header"]
 |===
 Name,Repository,Description,Documentation
 include::../../resources/data/ansible.csv[]
