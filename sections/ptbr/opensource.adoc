@@ -9,9 +9,9 @@
 
 === Imagens Docker
 
-[width="100%", format="csv", separator=";", options="header"]
+[width="100%", format="csv", separator=",", options="header"]
 |===
-Docker HUB;Repositório
+Nome,Repositório,Descrição,Documentação
 include::../../resources/data/docker.csv[]
 |===
 
@@ -20,9 +20,9 @@ include::../../resources/data/docker.csv[]
 
 {link-terraform-integr8}
 
-[width="100%", format="csv", separator=";", options="header"]
+[width="100%", format="csv", separator=",", options="header"]
 |===
-Terraform Registry;Repositório
+Nome,Repositório,Descrição,Documentação
 include::../../resources/data/terraform.csv[]
 |===
 
@@ -31,12 +31,21 @@ include::../../resources/data/terraform.csv[]
 
 {link-ansible-galaxy-fabioluciano}
 
-[width="100%", format="csv", separator=";", options="header"]
+[width="100%", format="csv", separator=",", options="header"]
 |===
-Ansible Galaxy;Repositório
+Nome,Repositório,Descrição,Documentação
 include::../../resources/data/ansible.csv[]
 |===
 
+=== Packer
+
+{link-ansible-galaxy-fabioluciano}
+
+[width="100%", format="csv", separator=",", options="header"]
+|===
+Nome,Repositório,Descrição,Documentação
+include::../../resources/data/packer.csv[]
+|===
 
 === Outros Projetos
 

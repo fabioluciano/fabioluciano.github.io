@@ -3,6 +3,9 @@ all: clean prepare pdf html
 clean:
 	sudo rm -rf $(CURDIR)/output
 
+execute_python:
+	python3 $(CURDIR)/python/main.py
+
 prepare:
 	docker pull integr8/alpine-asciidoctor-helper
 pdf:

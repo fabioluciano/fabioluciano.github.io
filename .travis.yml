@@ -1,8 +1,9 @@
 sudo: required
-
+language: python
 services:
   - docker
-
+install: 
+  - pip install -r python/requirements.txt
 before_install:
   - mkdir -p output/{en,ptbr}
 
@@ -15,7 +16,6 @@ script:
   - mv output/resume-ptbr.html output/ptbr/index.html
   - mv output/resume-ptbr.pdf output/ptbr/resume.pdf
   - if [ ! -z "$CUSTOM_DOMAIN" ]; then echo $CUSTOM_DOMAIN > output/CNAME; fi
-
 deploy:
   provider: pages
   target-branch: master

@@ -3,10 +3,11 @@ from github import Github
 class GithubClient:
 
   def __init__(self, token):
-    self.github_instance = Github(token)
-    self.result = []
+    self.github_instance = Github(login_or_token=token)
 
   def get_repositories_from_users_by_topic(self, users=[], topic = ''):
+    repository_list = []
+
     for user in users:
       github_user = self.github_instance.get_user(user)
 
@@ -17,12 +18,7 @@ class GithubClient:
           temp_repository.update({ 'html_url': repository.html_url })
           temp_repository.update({ 'description': repository.description })
           temp_repository.update({ 'homepage': repository.homepage })
-          self.result.append(temp_repository)
 
-    print(self.result)
+          repository_list.append(temp_repository)
 
-
-github_client = GithubClient('49ed5ccecf4ca18f37df9dfd3767cda82205cfa2')
-
-# github_client.get_repositories_from_users_by_topic(users=['fabioluciano', 'integr8', 'utils-docker'], topic='docker')
-github_client.get_repositories_from_users_by_topic(users=['fabioluciano', 'integr8', 'utils-docker'], topic='ansible')
+    return repository_list
