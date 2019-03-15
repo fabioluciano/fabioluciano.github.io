@@ -8,11 +8,9 @@ Contacts::
 
 Social Media / Websites::
 * https://github.com/fabioluciano[ Github icon:github[] , role="external", window="_blank"] | https://www.linkedin.com/in/fabioluciano[ LinkedIn icon:linkedin[] , role="external", window="_blank"] | https://twitter.com/fabioluciano[ Twitter icon:twitter[] , role="external", window="_blank"] |  https://facebook.com/fabioluciano[ Facebook icon:facebook[] , role="external", window="_blank"] |  https://instagram.com/fabioluciano[ Instagram icon:instagram[] , role="external", window="_blank"] |  https://t.me/fabioluciano[ Telegram icon:comment[] , role="external", window="_blank"]
-* http://naoimporta.com[Personal Blog]
-* http://fabioluciano.me[Resume] - This page
-* http://gluejs.com[GlueJS] - A build tool like Gulp, but better
-* http://integr8.me[Integr8] - Continuous Integration / Deployment / Quality company
-
+* https://naoimporta.com[Personal Blog]
+* https://fabioluciano.dev[Resume] - This page
+* https://integr8.me[Integr8] - Continuous Integration / Deployment / Quality company
 
 icon:map-marker[] Location::
 link:https://goo.gl/maps/CVjggk7kCeM2[{whereami}, role="external", window="_blank"]
