@@ -1,0 +1,3 @@
+{% for item in data %}
+| icon:github[] {{ item.html_url }}[{{ item.name }}] | {{ item.description or '' }} | {{ item.homepage or '' }} 
+{%- endfor %}

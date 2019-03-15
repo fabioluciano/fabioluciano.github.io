@@ -1,12 +1,12 @@
 from jinja2 import Environment, FileSystemLoader
 
 class Template:
-  def __init__(self, template_file, data):
+  def __init__(self, template_file = '', data = ''):
     self.template_file = template_file
     self.data = data
 
   def render(self):
-    jinja2_environment = Environment(loader=FileSystemLoader('resources/template'))
+    jinja2_environment = Environment(loader=FileSystemLoader('python/template'))
     template = jinja2_environment.get_template(self.template_file)
     return template.render(data=self.data)
 

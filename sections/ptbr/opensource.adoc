@@ -17,42 +17,40 @@ endif::[]
 
 === Imagens Docker
 
-[width="100%", format="csv", separator=",", options="header"]
+[width="100%", options="header",frame="topbot"] 
 |===
-Nome,Repositório,Descrição,Documentação
-include::../../resources/data/docker.csv[]
+| Nome | Descrição | Documentação 
+include::../../resources/data/docker.adoc[]
 |===
-
 
 === Terraform Scripts
 
 {link-terraform-integr8}
 
-[width="100%", format="csv", separator=",", options="header"]
+[width="100%", options="header",frame="topbot"] 
 |===
-Nome,Repositório,Descrição,Documentação
-include::../../resources/data/terraform.csv[]
+| Nome | Descrição | Documentação 
+include::../../resources/data/terraform.adoc[]
 |===
-
 
 === Ansible Galaxy Roles
 
 {link-ansible-galaxy-fabioluciano}
 
-[width="100%", format="csv", separator=",", options="header"]
+[width="100%", options="header",frame="topbot"] 
 |===
-Nome,Repositório,Descrição,Documentação
-include::../../resources/data/ansible.csv[]
+| Nome | Descrição | Documentação 
+include::../../resources/data/ansible.adoc[]
 |===
 
 === Packer
 
 {link-ansible-galaxy-fabioluciano}
 
-[width="100%", format="csv", separator=",", options="header"]
+[width="100%", options="header",frame="topbot"] 
 |===
-Nome,Repositório,Descrição,Documentação
-include::../../resources/data/packer.csv[]
+| Nome | Description | Documentação 
+include::../../resources/data/packer.adoc[]
 |===
 
 === Outros Projetos
