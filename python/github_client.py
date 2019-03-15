@@ -1,5 +1,4 @@
 from github import Github
-
 class GithubClient:
 
   def __init__(self, token):
@@ -21,4 +20,4 @@ class GithubClient:
 
           repository_list.append(temp_repository)
 
-    return repository_list
+    return sorted(repository_list, key=lambda x: (x['homepage'] is None, x['homepage']))
