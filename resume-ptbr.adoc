@@ -11,7 +11,7 @@ endif::[]
 ifdef::backend-html5[]
 [NOTE]
 ====
-Esta página está escrita no formato `AsciiDOC`. Seu código fonte está disponível em https://github.com/fabioluciano/fabioluciano.github.io[ icon:github[] Repositório do currículo, role="external", window="_blank"].
+Esta página foi escrita no formato `AsciiDOC`. Seu código fonte está disponível em https://github.com/fabioluciano/fabioluciano.github.io[ icon:github[] Repositório do currículo, role="external", window="_blank"].
 ====
 
 [TIP]
