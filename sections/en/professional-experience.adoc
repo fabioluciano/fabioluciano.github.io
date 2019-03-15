@@ -1,5 +1,12 @@
 [[professional-experience]]
+
+ifdef::backend-html5[]
 == icon:suitcase[] Professional Experience
+endif::[]
+
+ifdef::backend-pdf[]
+== Professional Experience
+endif::[]
 
 === Solutions Architect at SONDA IT
 

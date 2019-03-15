@@ -1,6 +1,13 @@
 [[technical-skills]]
 
+ifdef::backend-html5[]
 == icon:plug[] Conhecimentos Técnicos
+endif::[]
+
+ifdef::backend-pdf[]
+== Conhecimentos Técnicos
+endif::[]
+
 
 Linguagens de Progração:: PHP, Java, JavaScript, Shell Script, Python, C, Perl, (X)HTML e CSS
 

@@ -12,5 +12,5 @@ class Template:
 
   def write(self,output_file):
     template_string = self.render()
-    with open(output_file, "w+") as file_handler:
+    with open(output_file, "w") as file_handler:
       file_handler.write(template_string)

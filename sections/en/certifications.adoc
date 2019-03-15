@@ -1,5 +1,12 @@
 [[certifications]]
+
+ifdef::backend-html5[]
 == icon:certificate[] Certifications
+endif::[]
+
+ifdef::backend-pdf[]
+== Certifications
+endif::[]
 
 === AWS Certified Solutions Architect - Associate 
 icon:calendar[title="Period"] `October 2018` - `October 2023` +

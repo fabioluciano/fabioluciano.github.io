@@ -1,5 +1,12 @@
 [[education]]
+
+ifdef::backend-html5[]
 == icon:graduation-cap[] Education
+endif::[]
+
+ifdef::backend-pdf[]
+== Education
+endif::[]
 
 === Academic
 

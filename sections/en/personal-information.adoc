@@ -1,5 +1,12 @@
 [[personal-informations]]
+
+ifdef::backend-html5[]
 == icon:user[] Personal Informations
+endif::[]
+
+ifdef::backend-pdf[]
+== Personal Informations
+endif::[]
 
 Contacts::
 * icon:envelope[] E-mail: {email}

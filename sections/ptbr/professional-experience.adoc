@@ -1,5 +1,13 @@
 [[professional-experience]]
+
+ifdef::backend-html5[]
 == icon:suitcase[] Experiências profissionais
+endif::[]
+
+ifdef::backend-pdf[]
+== Experiências profissionais
+endif::[]
+
 
 === Arquiteto de soluções na SONDA IT
 
