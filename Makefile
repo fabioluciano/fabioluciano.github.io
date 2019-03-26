@@ -15,4 +15,3 @@ pdf:
 
 html:
 	docker run --rm -v $(CURDIR):/documents/ -e 'ASCIIDOCTOR_PLUGIN=tel-inline-macro' integr8/alpine-asciidoctor-helper html resume-en.adoc resume-ptbr.adoc
-
