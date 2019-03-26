@@ -1,3 +1,7 @@
-{% for item in data %}
-| icon:github[] {{ item.html_url }}[{{ item.name }}] | {{ item.description or '' }} | {{ item.homepage or '' }} 
+{% for item in data -%}
+{% if item.homepage -%}
+| icon:github[] {{ item.html_url }}[{{ item.name }}] | {{ item.description or '' }} | link:{{ item.homepage }}[{{ item.name }}]
+{% else %}
+| icon:github[] {{ item.html_url }}[{{ item.name }}] | {{ item.description or '' }} |
+{% endif %}
 {%- endfor %}
