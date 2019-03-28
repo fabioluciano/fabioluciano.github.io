@@ -5,7 +5,7 @@ clean:
 
 execute_python:
 	pip3 install --user -r python/requirements.txt
-	GH_TOKEN=6e7888ccf6f691a30bea98eb01a11b813ac3187e python3 $(CURDIR)/python/main.py
+	python3 $(CURDIR)/python/main.py
 
 prepare:
 	docker pull integr8/alpine-asciidoctor-helper
