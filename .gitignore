@@ -2,4 +2,4 @@
 *.pdf
 *.pyc
 .vscode
-resources/data/*.adoc
+resources/data/*
