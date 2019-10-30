@@ -10,6 +10,10 @@ endif::[]
 
 === Acadêmico 
 
+==== Pontifícia Universidade Católica de Minas Gerais - Arquitetura de Software Distribuído
+icon:calendar[title="Período"] `2019 até o momento` - *Diploma de Pós-Graduação Lato Sensu*
+Arquiteto de Software de Sistemas Distribuídos
+
 ==== Centro Universitário IESB - Análise e Desenvolvimento de Sistemas
 icon:calendar[title="Período"] `2012 - 2014` - *Diploma de Bacharelado*
 Analista e Desenvolvedor de Sistemas
