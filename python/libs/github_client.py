@@ -12,12 +12,13 @@ class GithubClient:
 
       for repository in github_user.get_repos():
         if topic in repository.get_topics() :
-          temp_repository = {}
-          temp_repository.update({ 'name': repository.name })
-          temp_repository.update({ 'html_url': repository.html_url })
-          temp_repository.update({ 'description': repository.description })
-          temp_repository.update({ 'homepage': repository.homepage })
+          if repository.description:
+            temp_repository = {}
+            temp_repository.update({ 'name': repository.name })
+            temp_repository.update({ 'html_url': repository.html_url })
+            temp_repository.update({ 'description': repository.description })
+            temp_repository.update({ 'homepage': repository.homepage })
 
-          repository_list.append(temp_repository)
+            repository_list.append(temp_repository)
 
     return sorted(repository_list, key=lambda x: (x['homepage'] is None, x['homepage']))

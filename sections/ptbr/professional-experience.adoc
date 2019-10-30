@@ -74,7 +74,7 @@ icon:calendar[title="Período"] `March 2015 to December 2015` +
 icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry of National Integration]
 
-- Development and maintenance of service oriented architecture (SOA);
+- Desenvolvimento e manutenção de arquiteturas orientadas a serviços (SOA);
 - Development of two bases for the backend. One using PHP, with the help of the Laravel framework, and other using Java, with the Spring framework;
 - Development of AngularJS based frontend architecture;
 - Scaffold tool creation to rapid development of features;
