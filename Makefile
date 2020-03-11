@@ -15,6 +15,7 @@ clean:
 
 prepare:
 	docker pull integr8/alpine-asciidoctor-helper
+	mkdir -p output/{en,ptbr}
 
 execute_python: prepare
 	pip3 install -r src/python/requirements.txt
