@@ -4,6 +4,10 @@ python:
 services:
   - docker
 
+cache:
+  directories:
+    - $TRAVIS_BUILD_DIR/output/
+
 jobs:
   include:
     - stage: Build HTML and PDF
