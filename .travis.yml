@@ -16,8 +16,10 @@ jobs:
         - make build_html
         - make build_pdf
         - if [ ! -z "$CUSTOM_DOMAIN" ]; then echo $CUSTOM_DOMAIN > $TRAVIS_BUILD_DIR/output/CNAME; fi
-        
+
     - stage: Deploy to Github Pages
+      script:
+        - echo teste
       if: tag is present
       deploy:
         provider: pages
@@ -25,8 +27,6 @@ jobs:
         skip_cleanup: true
         local_dir: $TRAVIS_BUILD_DIR/output/
         token: $GH_TOKEN
-        on:
-          tags: true
 
     - stage: Build Docker Image and Push to Docker Hub
       if: tag is present
