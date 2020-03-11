@@ -14,8 +14,9 @@ clean:
 	sudo rm -rf $(CURDIR)/output
 
 prepare:
-	docker pull integr8/alpine-asciidoctor-helper
+	docker pull asciidoctor/docker-asciidoctor
 	mkdir -p -m 0777 $(CURDIR)/output/{en,ptbr}
+	ls -lah
 
 execute_python: prepare
 	pip3 install -r $(CURDIR)/src/python/requirements.txt
