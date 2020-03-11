@@ -7,7 +7,7 @@ OUTPUTFILE_PDF = resume.pdf
 CONTAINER_NAME = fabioluciano/fabioluciano.github.io
 TAG_NAME = $(shell cat ./VERSION)
 
-all: clean prepare build_html build_pdf build_docker_image
+all: clean prepare execute_python build_html build_pdf build_docker_image
 
 clean:
 	sudo rm -rf $(CURDIR)/output

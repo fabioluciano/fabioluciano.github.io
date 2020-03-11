@@ -11,12 +11,14 @@ cache:
 jobs:
   include:
     - stage: Build HTML and PDF
-      if: tag is present
       script:
         - make execute_python
         - make build_html
         - make build_pdf
         - if [ ! -z "$CUSTOM_DOMAIN" ]; then echo $CUSTOM_DOMAIN > $TRAVIS_BUILD_DIR/output/CNAME; fi
+        
+    - stage: Deploy to Github Pages
+      if: tag is present
       deploy:
         provider: pages
         target_branch: master
