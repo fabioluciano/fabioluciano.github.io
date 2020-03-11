@@ -15,10 +15,10 @@ clean:
 
 prepare:
 	docker pull integr8/alpine-asciidoctor-helper
-	mkdir -p output/{en,ptbr}
+	mkdir -p $(CURDIR)/output/{en,ptbr}
 
 execute_python: prepare
-	pip3 install -r src/python/requirements.txt
+	pip3 install -r $(CURDIR)/src/python/requirements.txt
 	python3 $(CURDIR)/src/python/main.py
 
 build_html: execute_python
