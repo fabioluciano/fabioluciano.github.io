@@ -20,7 +20,7 @@ execute_python: prepare
 	pip3 install -r $(CURDIR)/src/python/requirements.txt
 	python3 $(CURDIR)/src/python/main.py
 
-build_html: execute_python
+build_html:
 	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
 		-o $(OUTPUTDIR)ptbr/$(OUTPUTFILE_HTML) \
 		src/resume-ptbr.adoc
@@ -29,7 +29,7 @@ build_html: execute_python
 		-o $(OUTPUTDIR)en/$(OUTPUTFILE_HTML) \
 		src/resume-en.adoc
 
-build_pdf: execute_python
+build_pdf:
 	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
 		$(PDFOPTIONS) \
 		-o $(OUTPUTDIR)ptbr/$(OUTPUTFILE_PDF) \
