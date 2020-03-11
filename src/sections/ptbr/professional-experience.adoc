@@ -15,6 +15,9 @@ icon:calendar[title="Período"] `Janeiro de 2018 até o Presente` +
 icon:group[title="Empregador"] {link-sonda}[SONDA IT, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] Software Factory
 
+.Click to see solution
+[%collapsible]
+====
 - Criação de infraestrutura como código utilizando o Terraform e CloudFormation para implantação de soluções utilizadas por todos os clientes da Fábrica de Software;
 - Implantação e configuração de ferramentas de integração e entrega contínua em ambiente empresarial (Jenkins, SonarQube, Sonatype Nexus, Gitlab, etc.);
 - Análise, implantação e configuração de elementos para implantação de balanceamento de carga e escalabilidade em ferramentas de integração/entregra contínua e aplicações utilizando proxy reverso (HAProxy) e programaticamente, utilizando suas APIs.
@@ -26,6 +29,7 @@ icon:chevron-circle-right[title="Cliente"] Software Factory
 - Orquestração do processo de integração/entrega contínua utilizando ferramentas (Jenkins, SonarQube, Sonatype Nexus, Gitlab, etc.);
 - Implantação da automatização de testes unitários(JUnit,PHPUnit, Karma, Jasmine), funcionais(Cucumber, Codeception, Behat, Cucumberjs) e de carga(JMeter) em aplicações empresariais;
 - Projeto e implantação de soluções baseadas em núvem utilizando os provedores Amazon Web Services e Microsoft Azure;
+====
 
 Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
 

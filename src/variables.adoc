@@ -18,7 +18,7 @@
 :doctitle: Curriculum Vitae - {author}
 
 :skype-id: fabiolucianodf
-:telephone: tel:+5561981455884[]
+:telephone: 55 61 981455884
 :email: fabio@naoimporta.com
 :facebook: fabioluciano
 :instagram: fabioluciano

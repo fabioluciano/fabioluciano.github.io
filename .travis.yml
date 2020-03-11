@@ -1,3 +1,22 @@
+os: linux
+language: c
+compiler: gcc
+
+services:
+  - docker
+
+cache:
+  directories:
+    - $TRAVIS_BUILD_DIR/output/
+
+jobs:
+  include:
+    - stage: build-and-deploy-to-ghpages
+      script:
+        - make 
+
+
+
 sudo: required
 language: python
 python:

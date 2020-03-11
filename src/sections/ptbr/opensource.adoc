@@ -8,51 +8,52 @@ ifdef::backend-pdf[]
 == Open Source
 endif::[]
 
+
 === PHP Documentation
 
 {link-phpdocbridge} + 
-{link-phpdoc-tranlation-page} + 
+{link-phpdoc-tranlation-page} +
 {link-phppeople}
 
-=== Docker Images
+=== Imagens Docker
 
 [width="100%", options="header",frame="topbot"] 
 |===
-| Name | Description | Documentation 
+| Nome | Descrição | Documentação 
 include::../../resources/data/docker.adoc[]
 |===
+
 === Terraform Scripts
 
 {link-terraform-integr8}
 
 [width="100%", options="header",frame="topbot"] 
 |===
-| Name | Description | Documentation 
+| Nome | Descrição | Documentação 
 include::../../resources/data/terraform.adoc[]
 |===
 
 === Ansible Galaxy Roles
 
-[width="100%", options="header",frame="topbot"] 
-|===
-| Name | Description | Documentation 
-include::../../resources/data/ansible.adoc[]
-|===
-
-=== Packer
-
 {link-ansible-galaxy-fabioluciano}
 
 [width="100%", options="header",frame="topbot"] 
 |===
-| Name | Description | Documentation 
+| Nome | Descrição | Documentação 
+include::../../resources/data/ansible.adoc[]
+|===
+
+=== Packer
+[width="100%", options="header",frame="topbot"] 
+|===
+| Nome | Description | Documentação 
 include::../../resources/data/packer.adoc[]
 |===
 
-=== Other Projects
+=== Outros Projetos
 
 https://github.com/fabioluciano/xfce4-whiskermenu-plugin +
-https://github.com/mdh34/hackup + 
+https://github.com/mdh34/hackup +
 https://github.com/docker/docker.github.io + 
 https://github.com/fabioluciano/generator-projeto + 
 https://github.com/fabioluciano/gulp-recipe + 

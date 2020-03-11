@@ -8,55 +8,49 @@ ifdef::backend-pdf[]
 == Open Source
 endif::[]
 
-
 === PHP Documentation
 
 {link-phpdocbridge} + 
-{link-phpdoc-tranlation-page} +
+{link-phpdoc-tranlation-page} + 
 {link-phppeople}
 
-=== Imagens Docker
+=== Docker Images
 
 [width="100%", options="header",frame="topbot"] 
 |===
-| Nome | Descrição | Documentação 
+| Name | Description | Documentation 
 include::../../resources/data/docker.adoc[]
 |===
-
 === Terraform Scripts
 
 {link-terraform-integr8}
 
 [width="100%", options="header",frame="topbot"] 
 |===
-| Nome | Descrição | Documentação 
+| Name | Description | Documentation 
 include::../../resources/data/terraform.adoc[]
 |===
 
 === Ansible Galaxy Roles
-
 {link-ansible-galaxy-fabioluciano}
 
 [width="100%", options="header",frame="topbot"] 
 |===
-| Nome | Descrição | Documentação 
+| Name | Description | Documentation 
 include::../../resources/data/ansible.adoc[]
 |===
 
 === Packer
-
-{link-ansible-galaxy-fabioluciano}
-
 [width="100%", options="header",frame="topbot"] 
 |===
-| Nome | Description | Documentação 
+| Name | Description | Documentation 
 include::../../resources/data/packer.adoc[]
 |===
 
-=== Outros Projetos
+=== Other Projects
 
 https://github.com/fabioluciano/xfce4-whiskermenu-plugin +
-https://github.com/mdh34/hackup +
+https://github.com/mdh34/hackup + 
 https://github.com/docker/docker.github.io + 
 https://github.com/fabioluciano/generator-projeto + 
 https://github.com/fabioluciano/gulp-recipe + 

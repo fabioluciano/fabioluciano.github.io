@@ -1,17 +1,45 @@
-all: clean prepare pdf html
+OUTPUTDIR = ./output/
+
+OUTPUTSTRING = -D $(OUTPUTDIR) -a outdir=$(OUTPUTDIR)
+PDFOPTIONS = -a allow-uri-read -a pdf-theme=src/resources/themes/default-theme.yml -a pdf-fontsdir=src/resources/fonts
+
+OUTPUTFILE_HTML = index.html
+OUTPUTFILE_PDF = resume.pdf
+
+TAG = $(shell cat ./VERSION)
+
+all: clean prepare execute_python build_html build_pdf build_docker_image
 
 clean:
 	sudo rm -rf $(CURDIR)/output
 
-execute_python:
-	pip3 install --user -r python/requirements.txt
-	python3 $(CURDIR)/python/main.py
-
 prepare:
 	docker pull integr8/alpine-asciidoctor-helper
 
-pdf:
-	docker run --rm -v $(CURDIR):/documents/ -e 'ASCIIDOCTOR_PLUGIN=tel-inline-macro,highlight-treeprocessor' -e 'ASCIIDOCTOR_PDF_THEMES_DIR=resources/themes' -e 'ASCIIDOCTOR_PDF_THEME=default' -e 'ASCIIDOCTOR_PDF_FONTS_DIR=resources/fonts' integr8/alpine-asciidoctor-helper pdf resume-en.adoc resume-ptbr.adoc
+execute_python: prepare
+	pip3 install --user -r src/python/requirements.txt
+	python3 $(CURDIR)/src/python/main.py
 
-html:
-	docker run --rm -v $(CURDIR):/documents/ -e 'ASCIIDOCTOR_PLUGIN=tel-inline-macro' integr8/alpine-asciidoctor-helper html resume-en.adoc resume-ptbr.adoc
+build_html: execute_python
+	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
+		-o ./ptbr/$(OUTPUTFILE_HTML) \
+		$(OUTPUTSTRING) src/resume-ptbr.adoc
+	cp $(OUTPUTDIR)/ptbr/$(OUTPUTFILE_HTML) $(OUTPUTDIR)$(OUTPUTFILE_HTML)
+	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
+		-o ./en/$(OUTPUTFILE_HTML) \
+		$(OUTPUTSTRING) src/resume-en.adoc
+
+build_pdf: execute_python
+	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
+		$(PDFOPTIONS) \
+		-o ./ptbr/$(OUTPUTFILE_PDF) \
+		$(OUTPUTSTRING) src/resume-ptbr.adoc
+	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
+		$(PDFOPTIONS) \
+		-o ./en/$(OUTPUTFILE_PDF) \
+		$(OUTPUTSTRING) src/resume-en.adoc
+
+build_docker_image:
+	tar -czvf output.tar.gz -C output .
+	docker build -t fabioluciano.dev:$(TAG) --build-arg DEPLOYMENT=output.tar.gz .
+	rm output.tar.gz
