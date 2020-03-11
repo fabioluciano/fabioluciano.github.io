@@ -45,5 +45,5 @@ build_docker_image:
 	rm output.tar.gz
 
 push_docker_image:
-	echo "$DOCKER_HUB_TOKEN" | docker login -u "$DOCKER_HUB_USERNAME" --password-stdin
+	echo "${DOCKER_HUB_TOKEN}" | docker login -u "${DOCKER_HUB_USERNAME}" --password-stdin
 	docker push ${CONTAINER_NAME}:$(TAG_NAME)
