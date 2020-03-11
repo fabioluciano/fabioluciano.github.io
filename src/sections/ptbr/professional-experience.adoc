@@ -15,9 +15,11 @@ icon:calendar[title="Período"] `Janeiro de 2018 até o Presente` +
 icon:group[title="Empregador"] {link-sonda}[SONDA IT, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] Software Factory
 
-.Click to see solution
+ifdef::backend-html5[]
+.Atividades executadas
 [%collapsible]
 ====
+endif::[]
 - Criação de infraestrutura como código utilizando o Terraform e CloudFormation para implantação de soluções utilizadas por todos os clientes da Fábrica de Software;
 - Implantação e configuração de ferramentas de integração e entrega contínua em ambiente empresarial (Jenkins, SonarQube, Sonatype Nexus, Gitlab, etc.);
 - Análise, implantação e configuração de elementos para implantação de balanceamento de carga e escalabilidade em ferramentas de integração/entregra contínua e aplicações utilizando proxy reverso (HAProxy) e programaticamente, utilizando suas APIs.
@@ -29,7 +31,9 @@ icon:chevron-circle-right[title="Cliente"] Software Factory
 - Orquestração do processo de integração/entrega contínua utilizando ferramentas (Jenkins, SonarQube, Sonatype Nexus, Gitlab, etc.);
 - Implantação da automatização de testes unitários(JUnit,PHPUnit, Karma, Jasmine), funcionais(Cucumber, Codeception, Behat, Cucumberjs) e de carga(JMeter) em aplicações empresariais;
 - Projeto e implantação de soluções baseadas em núvem utilizando os provedores Amazon Web Services e Microsoft Azure;
+ifdef::backend-html5[]
 ====
+endif::[]
 
 Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
 
@@ -39,6 +43,11 @@ icon:calendar[title="Período"] `Julho de 2016 até Dezembro de 2017` +
 icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-mctic}[Ministério da Ciência e Tecnologia]
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Desenvolvimento e manutenção de uma arquitetura arquitetura com microserviços;
 - Implantação das ferramentas para orientar a implantação da filosofia DevOps no órgão;
 - Análise dos logs dos microserviços, bem como a criação de gatilhos da stack de automação utilizando o LogStash;
@@ -47,6 +56,9 @@ icon:chevron-circle-right[title="Cliente"] {link-ministry-mctic}[Ministério da 
 - Criação de containers Docker para orquestrão dos microserviços;
 - Implantação do balanceamento de carga e alta disponibilidade com o HaProxy;
 - Implementação da implantação automatizada dos microserviços utilizando o Ansible;
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
 
@@ -56,8 +68,12 @@ icon:calendar[title="Período"] `April 2016 to July 2016` +
 icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-mdic}[Ministério do Desenvolvimento Indústria e Comércio]
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Desenvolvimento e manutenção de uma arquitetura orientada a serviços (SOA);
-- Development and maintenance of service oriented architecture (SOA);
 - Architectural implementation of systems using Phalcon PHP, Symfony and Laravel;
 - DAO component Implementation for reuse in all architetures;
 - Development of AngularJS based architecture;
@@ -69,6 +85,9 @@ icon:chevron-circle-right[title="Cliente"] {link-ministry-mdic}[Ministério do D
 - Maintenance and monitoring of quality standard policies of the software developed using the Sonarqube;
 - Releases Maintenance and Snapshots using Sonatype Nexus.
 - Creating proof of concept using the architecture created by using containers.
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: ...
 
@@ -78,6 +97,11 @@ icon:calendar[title="Período"] `March 2015 to December 2015` +
 icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry of National Integration]
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Desenvolvimento e manutenção de arquiteturas orientadas a serviços (SOA);
 - Development of two bases for the backend. One using PHP, with the help of the Laravel framework, and other using Java, with the Spring framework;
 - Development of AngularJS based frontend architecture;
@@ -85,6 +109,9 @@ icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry 
 - Architectural documentation of the systems delivered with the established architecture;
 - Deployment system documentation ;
 - Maintaining and creating jobs in the Jenkins, continuous integration tool;
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: ...
 
@@ -94,8 +121,16 @@ icon:calendar[title="Período"] `February 2014 to March 2015` +
 icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry of National Integration]
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Development and maintenance of softwares developed using PHP, with the Zend, Symfony and Laravel frameworks, and MySQL, PostgreSQL and Oracle Databases; 
 - Frontend development using HTML, Javascript (JQuery) and CSS.
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: ...
 
@@ -104,11 +139,19 @@ Tecnologias:: ...
 icon:calendar[title="Período"] `April 2011 to July 2012` +
 icon:group[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Maintenance and management of application servers;
 - Version management of generated artifacts; 
 - Delivery of developed products;
 - Creation of application security policies;
 - Maintenance of products baselines, branches and tags.
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: ...
 
@@ -117,9 +160,17 @@ Tecnologias:: ...
 icon:calendar[title="Período"] `March 2012 to April 2012` +
 icon:group[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Development and maintenance of softwares developed using PHP and SQL Server; 
 - Development of frontend using HTML, Javascript (JQuery) and CSS; 
 - Migration from legacy ASP softwares to PHP.
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: ...
 
@@ -128,12 +179,20 @@ Tecnologias:: ...
 icon:calendar[title="Período"] `January 2011 to June 2011` +
 icon:group[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Administration of 20 company servers;
 - Maintenance of application servers using the Apache HTTPd for backend, and Lighttpd for frontend;
 - Maintenance of server databases in clustered environment, ensuring high service availability;
 - Maintenance of reverse proxy server using Squid ;
 - SVN server administration;
 - Monitoring servers and services using Zabbix.
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: ...
 
@@ -142,10 +201,18 @@ Tecnologias:: ...
 icon:calendar[title="Período"] `August 2008 to December 2010` +
 icon:group[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
 
+ifdef::backend-html5[]
+.Atividades executadas
+[%collapsible]
+====
+endif::[]
 - Development and maintenance of solutions developed using PHP and MySQL;
 - Development of frontend using HTML, Javascript (JQuery) and CSS;
 - Creation of an tool for marking areas in images to OCR. The markings are made using Python and wxWidgets, to ensure interoperability of the application;
 - Creation of an handmade Load Balance to garantee the high avaliability of services in operation;
 - Use of subversion for versioning releases of the software developed.
+ifdef::backend-html5[]
+====
+endif::[]
 
 Tecnologias:: PHP, MySQL, Javascript, HTML, CSS, Subversion, ShellScript 
