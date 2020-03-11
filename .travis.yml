@@ -13,8 +13,8 @@ jobs:
   include:
     - stage: build-and-deploy-to-ghpages
       script:
-        - pip3 install -r src/python/requirements.txt
-        - python3 src/python/main.py
+        - pip3 install -r $TRAVIS_BUILD_DIR/src/python/requirements.txt
+        - python3 $TRAVIS_BUILD_DIR/src/python/main.py
         - make 
 
 
