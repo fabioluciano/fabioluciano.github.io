@@ -31,6 +31,7 @@ jobs:
         - if [ ! -z "$CUSTOM_DOMAIN" ]; then echo $CUSTOM_DOMAIN > output/CNAME; fi
 
     - stage: Deploy to Github pages
+      if: tag is present
       deploy:
         provider: pages
         target_branch: gh-pages
