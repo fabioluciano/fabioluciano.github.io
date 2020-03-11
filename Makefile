@@ -21,20 +21,20 @@ execute_python: prepare
 	python3 $(CURDIR)/src/python/main.py
 
 build_html: execute_python
-	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
+	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
 		-o $(OUTPUTDIR)ptbr/$(OUTPUTFILE_HTML) \
 		src/resume-ptbr.adoc
 	cp $(OUTPUTDIR)/ptbr/$(OUTPUTFILE_HTML) $(OUTPUTDIR)$(OUTPUTFILE_HTML)
-	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
+	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
 		-o $(OUTPUTDIR)en/$(OUTPUTFILE_HTML) \
 		src/resume-en.adoc
 
 build_pdf: execute_python
-	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
+	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
 		$(PDFOPTIONS) \
 		-o $(OUTPUTDIR)ptbr/$(OUTPUTFILE_PDF) \
 		src/resume-ptbr.adoc
-	docker run --rm --user 1000:1000 -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
+	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
 		$(PDFOPTIONS) \
 		-o $(OUTPUTDIR)en/$(OUTPUTFILE_PDF) \
 		src/resume-en.adoc
