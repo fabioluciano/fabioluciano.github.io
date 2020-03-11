@@ -1,5 +1,6 @@
 *.html
 *.pdf
 *.pyc
+output
 .vscode
 resources/data/*
