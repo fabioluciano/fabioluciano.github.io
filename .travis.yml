@@ -13,36 +13,38 @@ jobs:
   include:
     - stage: build-and-deploy-to-ghpages
       script:
+        - pip3 install -r src/python/requirements.txt
+        - python3 src/python/main.py
         - make 
 
 
 
-sudo: required
-language: python
-python:
-  - "3.6"
-services:
-  - docker
-before_install:
-  - mkdir -p output/{en,ptbr}
-  - mkdir -p resources/data
-install:
-  - pip3 install -r python/requirements.txt
-  - python3 python/main.py
-script:
-  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ -e 'ASCIIDOCTOR_THEME=asciidoctor' -e 'ASCIIDOCTOR_PLUGIN=google-analytics-docinfoprocessor,tel-inline-macro' integr8/alpine-asciidoctor-helper html resume-en.adoc resume-ptbr.adoc
-  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ -e 'ASCIIDOCTOR_PLUGIN=google-analytics-docinfoprocessor,tel-inline-macro' -e 'ASCIIDOCTOR_PDF_THEMES_DIR=resources/themes' -e 'ASCIIDOCTOR_PDF_THEME=default' -e 'ASCIIDOCTOR_PDF_FONTS_DIR=resources/fonts' integr8/alpine-asciidoctor-helper pdf resume-en.adoc resume-ptbr.adoc
-  - cp output/resume-ptbr.html output/index.html
-  - mv output/resume-en.html output/en/index.html
-  - mv output/resume-en.pdf output/en/resume.pdf
-  - mv output/resume-ptbr.html output/ptbr/index.html
-  - mv output/resume-ptbr.pdf output/ptbr/resume.pdf
-  - if [ ! -z "$CUSTOM_DOMAIN" ]; then echo $CUSTOM_DOMAIN > output/CNAME; fi
-deploy:
-  provider: pages
-  target-branch: master
-  skip_cleanup: true
-  local_dir: output/
-  github_token: $GH_TOKEN
-  on:
-    branch: development
+# sudo: required
+# language: python
+# python:
+#   - "3.6"
+# services:
+#   - docker
+# before_install:
+#   - mkdir -p output/{en,ptbr}
+#   - mkdir -p resources/data
+# install:
+#   - pip3 install -r python/requirements.txt
+#   - python3 python/main.py
+# script:
+#   - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ -e 'ASCIIDOCTOR_THEME=asciidoctor' -e 'ASCIIDOCTOR_PLUGIN=google-analytics-docinfoprocessor,tel-inline-macro' integr8/alpine-asciidoctor-helper html resume-en.adoc resume-ptbr.adoc
+#   - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ -e 'ASCIIDOCTOR_PLUGIN=google-analytics-docinfoprocessor,tel-inline-macro' -e 'ASCIIDOCTOR_PDF_THEMES_DIR=resources/themes' -e 'ASCIIDOCTOR_PDF_THEME=default' -e 'ASCIIDOCTOR_PDF_FONTS_DIR=resources/fonts' integr8/alpine-asciidoctor-helper pdf resume-en.adoc resume-ptbr.adoc
+#   - cp output/resume-ptbr.html output/index.html
+#   - mv output/resume-en.html output/en/index.html
+#   - mv output/resume-en.pdf output/en/resume.pdf
+#   - mv output/resume-ptbr.html output/ptbr/index.html
+#   - mv output/resume-ptbr.pdf output/ptbr/resume.pdf
+#   - if [ ! -z "$CUSTOM_DOMAIN" ]; then echo $CUSTOM_DOMAIN > output/CNAME; fi
+# deploy:
+#   provider: pages
+#   target-branch: master
+#   skip_cleanup: true
+#   local_dir: output/
+#   github_token: $GH_TOKEN
+#   on:
+#     branch: development
