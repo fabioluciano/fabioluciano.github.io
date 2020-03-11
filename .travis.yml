@@ -4,10 +4,6 @@ python:
 services:
   - docker
 
-cache:
-  directories:
-    - $TRAVIS_BUILD_DIR/output/
-
 jobs:
   include:
     - stage: Build HTML and PDF
@@ -21,7 +17,7 @@ jobs:
       deploy:
         provider: pages
         target_branch: master
-        cleanup: false
+        skip_cleanup: true
         local_dir: $TRAVIS_BUILD_DIR/output/
         token: $GH_TOKEN
         on:
