@@ -14,7 +14,8 @@ jobs:
       script:
         - make build_html
     - stage: build-pdf
-        - make build_pdf
+      script:
+       - make build_pdf
 
 
 
