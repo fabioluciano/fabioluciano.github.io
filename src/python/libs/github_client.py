@@ -20,4 +20,4 @@ class GithubClient:
 
           repository_list.append(temp_repository)
 
-    return sorted(repository_list, key=lambda x: (x['homepage'] is None, x['homepage']))
+    return sorted(repository_list, key=lambda x: (x['description'] is None, x['description']))

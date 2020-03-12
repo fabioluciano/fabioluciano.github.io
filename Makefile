@@ -6,6 +6,7 @@ OUTPUTFILE_HTML = index.html
 OUTPUTFILE_PDF = resume.pdf
 
 CONTAINER_NAME = fabioluciano/fabioluciano.github.io
+TRAVIS_TAG ?= latest
 TAG_NAME = ${TRAVIS_TAG}
 
 all: clean prepare execute_python build_html build_pdf build_docker_image
