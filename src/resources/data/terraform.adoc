@@ -1,3 +1,0 @@
-| icon:github[] https://github.com/integr8/terraform-aws-devops-nexus[terraform-aws-devops-nexus] | Terraform module to provision a Sonatype Nexus on AWS | link:https://registry.terraform.io/modules/integr8/devops-nexus[icon:book[] terraform-aws-devops-nexus]
-| icon:github[] https://github.com/integr8/terraform-aws-devops-selenium[terraform-aws-devops-selenium] | Terraform module to provision a selenium hub cluster on AWS | link:https://registry.terraform.io/modules/integr8/devops-selenium[icon:book[] terraform-aws-devops-selenium]
-| icon:github[] https://github.com/integr8/terraform-aws-devops-vpc[terraform-aws-devops-vpc] | Terraform module to provision a VPC on AWS | link:https://registry.terraform.io/modules/integr8/devops-vpc/[icon:book[] terraform-aws-devops-vpc]

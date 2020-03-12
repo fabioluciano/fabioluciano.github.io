@@ -15,7 +15,7 @@
 :authorinitials: F.L.N.G.
 :source-highlighter: pygments
 :google-analytics-account: UA-131372489-1
-:doctitle: Curriculum Vitae - {author}
+:doctitle: {full-name}
 
 :skype-id: fabiolucianodf
 :telephone: 55 61 981455884

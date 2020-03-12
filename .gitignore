@@ -3,4 +3,4 @@
 *.pyc
 output
 .vscode
-resources/data/*
+src/resources/data/*.adoc

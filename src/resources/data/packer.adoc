@@ -1,2 +1,0 @@
-
-| icon:github[] https://github.com/integr8/packer-ubuntu-1804[packer-ubuntu-1804] | Packer script to ububuntu 18.04 |
