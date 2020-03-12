@@ -14,7 +14,7 @@
 :full-name: Fábio Luciano Nogueira de Góis
 :authorinitials: F.L.N.G.
 :source-highlighter: pygments
-:google-analytics-account: UA-131372489-1
+:google-analytics-account: UA-160509005-1
 :doctitle: {full-name}
 
 :skype-id: fabiolucianodf
