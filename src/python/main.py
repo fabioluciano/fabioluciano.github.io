@@ -15,6 +15,8 @@ repositories = github_client.get_repositories_by_users(
 
 all_topics = [val for sublist in repositories if len(sublist['topics']) for val in sublist['topics']]
 most_common_topic = Counter(all_topics).most_common(8)
+most_common_topic_list = [ topic[0] for topic in most_common_topic]
+oxford_comma = ", ".join(most_common_topic_list[:-2] + [" e ".join(most_common_topic_list[-2:])])
 
 for topic in ['docker', 'ansible', 'terraform', 'packer']:
   section = section_dir + topic + '.adoc'
