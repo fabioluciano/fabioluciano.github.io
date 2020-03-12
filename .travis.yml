@@ -27,6 +27,8 @@ jobs:
         skip_cleanup: true
         local_dir: $TRAVIS_BUILD_DIR/output/
         token: $GH_TOKEN
+        on:
+          tags: true
 
     - stage: Build Docker Image and Push to Docker Hub
       if: tag is present
