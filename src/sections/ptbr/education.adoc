@@ -37,7 +37,10 @@ Inglês:: Leitura(fluente), escrita(intermediário) e conversação(intermediár
 Espanhol:: Leitura(fluente), escrita(intermediário) e conversação(intermediário)
 Francês:: Leitura(básico), escrita(básico) e conversação(básico)
 
-=== Eventos e Palestras
+=== Eventos e Treinamentos ministrados
+
+==== Utilização de GraphQL com VueJS para construção de APIs - RS
+icon:user[title="Papel"] Palestrante icon:calendar[title="Período"] `02/2020` icon:map-marker[] Canoas / RS
 
 ==== Containers para pessoas ansiosas - DF
 icon:user[title="Papel"] Palestrante icon:calendar[title="Período"] `01/2020` icon:map-marker[] Brasília / DF
