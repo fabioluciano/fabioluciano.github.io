@@ -1,5 +1,5 @@
 include::variables.adoc[]
-:toc-title: Índice
+:!toc-title:
 
 ifdef::backend-pdf[:notitle:]
 ifdef::backend-pdf[:!toc2:]

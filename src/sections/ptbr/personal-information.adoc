@@ -10,11 +10,11 @@ endif::[]
 
 Contatos::
 * icon:envelope[] E-mail: {email}
-* icon:phone[] Telefone celular / WhatsApp / Telegram: {telephone}
+* icon:phone[] Telefone / WhatsApp / Telegram: {telephone}
 * icon:skype[] Skype: {skype-id}
 
 Mídias Sociais / Websites::
-* https://github.com/fabioluciano[ Github icon:github[] , role="external", window="_blank"] | https://www.linkedin.com/in/fabioluciano[ LinkedIn icon:linkedin[] , role="external", window="_blank"] | https://twitter.com/fabioluciano[ Twitter icon:twitter[] , role="external", window="_blank"] |  https://facebook.com/fabioluciano[ Facebook icon:facebook[] , role="external", window="_blank"] |  https://instagram.com/fabioluciano[ Instagram icon:instagram[] , role="external", window="_blank"] |  https://t.me/fabioluciano[ Telegram icon:comment[] , role="external", window="_blank"]
+* https://github.com/fabioluciano[ icon:github[] Github  , role="external", window="_blank"] | https://www.linkedin.com/in/fabioluciano[ icon:linkedin[] LinkedIn , role="external", window="_blank"] | https://twitter.com/fabioluciano[ icon:twitter[] Twitter  , role="external", window="_blank"] | https://t.me/fabioluciano[ Telegram icon:comment[] , role="external", window="_blank"]
 * https://naoimporta.com[Blog pessoal]
 * https://fabioluciano.dev[Currículo] - Esta página
 * https://integr8.me[Integr8] - Projeto open source voltado a implantação de esteiras de Integração / Implantação / Qualidade contínua

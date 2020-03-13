@@ -5,6 +5,30 @@
 <!-- We do not need the tocify CSS because the asciidoc CSS already provides most of what we neeed -->
 
 <style>
+#toc.toc2 {
+}
+
+#toc.toc2 {
+    background: #fcfcfc;
+    width: 22em;
+    left: 1em;
+    top: unset;
+    border-right: 1px solid #f7f7f7;
+    padding: 1.25em 1em;
+    height: unset;
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px 5px #00000024;
+}
+
+#header, #content, #footnotes, #footer {
+  max-width: unset;
+  padding-left: 6em;
+  padding-right: 2em;
+}
+
+h1, h2, h3, #toctitle, .sidebarblock>.content>.title, h4, h5, h6 {
+  color: unset;
+}
 .tocify-subheader {
     font-style: normal;
     font-size: 90%;
@@ -43,12 +67,8 @@
             ignoreSelector: ".discrete"
         });
 
-        // Switch between static asciidoc toc and dynamic tocify toc based on browser size
-        // This is set to match the media selectors in the asciidoc CSS
-        // Without this, we keep the dynamic toc even if it is moved from the side to preamble
-        // position which will cause odd scrolling behavior
         var handleTocOnResize = function() {
-            if ($(document).width() < 768) {
+            if ($(document).width() < 300) {
                 $("#generated-toc").hide();
                 $(".sectlevel0").show();
                 $(".sectlevel1").show();
