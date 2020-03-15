@@ -8,6 +8,9 @@ cache:
   directories:
     - $TRAVIS_BUILD_DIR/output/
 
+before_script:
+  - sudo apt-get install -y ghostscript
+
 jobs:
   include:
     - stage: Build HTML and PDF
