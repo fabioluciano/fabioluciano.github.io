@@ -13,7 +13,7 @@ endif::[]
 
 icon:calendar[title="Período"] `Janeiro de 2018 até o Presente` +
 icon:group[title="Empregador"] {link-sonda}[SONDA IT, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] Software Factory
+icon:chevron-circle-right[title="Cliente"] Fábrica de Software
 
 ifdef::backend-html5[]
 .Atividades executadas
@@ -53,7 +53,7 @@ endif::[]
 - Análise dos logs dos microserviços, bem como a criação de gatilhos da stack de automação utilizando o LogStash;
 - Monitoramento dos microserviços utilizando o Prometheus;
 - Criação de pipelines de integração/entrega/qualidade contínua em projetos Java(JEE), Angular.js e PHP;
-- Criação de containers Docker para orquestrão dos microserviços;
+- Criação de containers Docker para orquestração dos microserviços;
 - Implantação do balanceamento de carga e alta disponibilidade com o HaProxy;
 - Implementação da implantação automatizada dos microserviços utilizando o Ansible;
 ifdef::backend-html5[]
@@ -64,7 +64,7 @@ Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins,
 
 === Arquiteto de Software em CTIS Tecnologia
 
-icon:calendar[title="Período"] `April 2016 to July 2016` +
+icon:calendar[title="Período"] `Abril de 2016 a Julho de 2016` +
 icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-mdic}[Ministério do Desenvolvimento Indústria e Comércio]
 
@@ -74,11 +74,11 @@ ifdef::backend-html5[]
 ====
 endif::[]
 - Desenvolvimento e manutenção de uma arquitetura orientada a serviços (SOA);
-- Architectural implementation of systems using Phalcon PHP, Symfony and Laravel;
-- DAO component Implementation for reuse in all architetures;
-- Development of AngularJS based architecture;
-- Architectural documentation of the systems delivered with the established architecture;
-- Deployment system documentation ;
+- Implementação arquitetural de sistemas utilizando Falcon PHP, Symfony e Laravel;
+- Implementação de componentes DAO para habilitação de reutilização em todas as arquiteturas;
+- Desenvolvimento e implantação de uma arquitetura AngularJS;
+- Documentação arquitetural de sistemas construídos;
+- Documentação de implantação das aplicações;
 - Maintaining and creation of jobs in the Jenkins, continuous integration tool;
 - Establish minimum security policies for applications developed that use the architecture;
 - Quality policy creation to be evaluated by static analiser;

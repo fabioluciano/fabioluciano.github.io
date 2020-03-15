@@ -3,7 +3,7 @@ OUTPUTDIR = ./output/
 PDFOPTIONS = -a allow-uri-read -a pdf-theme=src/resources/themes/default-theme.yml -a pdf-fontsdir=src/resources/fonts
 HTMLOPTIONS = -a toc=left -a docinfo=shared
 OUTPUTFILE_HTML = index.html
-OUTPUTFILE_PDF = resume.pdf
+OUTPUTFILE_PDF = resume-raw.pdf
 
 CONTAINER_NAME = fabioluciano/fabioluciano.github.io
 TRAVIS_TAG ?= latest
@@ -27,25 +27,24 @@ build_html:
 		-o $(OUTPUTDIR)ptbr/$(OUTPUTFILE_HTML) \
 		$(HTMLOPTIONS) \
 		src/resume-ptbr.adoc
-	cp $(OUTPUTDIR)/ptbr/$(OUTPUTFILE_HTML) $(OUTPUTDIR)$(OUTPUTFILE_HTML)
 	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor \
 		-o $(OUTPUTDIR)en/$(OUTPUTFILE_HTML) \
 		$(HTMLOPTIONS) \
 		src/resume-en.adoc
+	cp $(OUTPUTDIR)/ptbr/$(OUTPUTFILE_HTML) $(OUTPUTDIR)$(OUTPUTFILE_HTML)
 
 build_pdf:
 	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
-		$(PDFOPTIONS) \
-		-o $(OUTPUTDIR)ptbr/$(OUTPUTFILE_PDF) \
+		$(PDFOPTIONS) -o $(OUTPUTDIR)ptbr/$(OUTPUTFILE_PDF) \
 		src/resume-ptbr.adoc
 	docker run --rm -v $(CURDIR):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
-		$(PDFOPTIONS) \
-		-o $(OUTPUTDIR)en/$(OUTPUTFILE_PDF) \
+		$(PDFOPTIONS) -o $(OUTPUTDIR)en/$(OUTPUTFILE_PDF) \
 		src/resume-en.adoc
 
 optimize_pdf:
-	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$(OUTPUTDIR)ptbr/resume.pdf $(OUTPUTDIR)ptbr/resume.pdf
-	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$(OUTPUTDIR)en/resume.pdf $(OUTPUTDIR)en/resume.pdf
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$(OUTPUTDIR)ptbr/resume.pdf $(OUTPUTDIR)ptbr/resume-raw.pdf
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$(OUTPUTDIR)en/resume.pdf $(OUTPUTDIR)en/resume-raw.pdf
+	rm $(OUTPUTDIR)ptbr/resume-raw.pdf $(OUTPUTDIR)en/resume-raw.pdf -f
 
 build_docker_image:
 	tar -czvf output.tar.gz -C output .
