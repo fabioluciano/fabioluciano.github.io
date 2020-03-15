@@ -15,6 +15,7 @@ jobs:
         - make execute_python
         - make build_html
         - make build_pdf
+        - make optimize_pdf
 
     - stage: Build Docker Image and Push to Docker Hub
       if: tag is present

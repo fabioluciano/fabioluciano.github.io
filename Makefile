@@ -9,7 +9,7 @@ CONTAINER_NAME = fabioluciano/fabioluciano.github.io
 TRAVIS_TAG ?= latest
 TAG_NAME = ${TRAVIS_TAG}
 
-all: clean prepare execute_python build_html build_pdf build_docker_image
+all: clean prepare execute_python build_html build_pdf optimize_pdf build_docker_image
 
 clean:
 	sudo rm -rf $(CURDIR)/output
@@ -42,6 +42,10 @@ build_pdf:
 		$(PDFOPTIONS) \
 		-o $(OUTPUTDIR)en/$(OUTPUTFILE_PDF) \
 		src/resume-en.adoc
+
+optimize_pdf:
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$(OUTPUTDIR)ptbr/resume.pdf $(OUTPUTDIR)ptbr/resume.pdf
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$(OUTPUTDIR)en/resume.pdf $(OUTPUTDIR)en/resume.pdf
 
 build_docker_image:
 	tar -czvf output.tar.gz -C output .
