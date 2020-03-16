@@ -38,10 +38,10 @@ base:
   #line_height_length: 18
   #font_size: 11.2
   #line_height_length: 16
-  font_size: 10.5
+  font_size: 9
   #line_height_length: 15
   # correct line height for Noto Serif metrics
-  line_height_length: 12
+  line_height_length: 10
   #font_size: 11.25
   #line_height_length: 18
   line_height: $base_line_height_length / $base_font_size
@@ -99,10 +99,11 @@ heading:
   font_color: $base_font_color
   font_style: bold
   # h1 is used for part titles (book doctype) or the doctitle (article doctype)
-  h1_font_size: floor($base_font_size * 2.6)
+  h1_font_size: floor($base_font_size * 2)
+  h1_align: center
   # h2 is used for chapter titles (book doctype only)
-  h2_font_size: floor($base_font_size * 2.15)
-  h3_font_size: round($base_font_size * 1.7)
+  h2_font_size: floor($base_font_size * 1.5)
+  h3_font_size: round($base_font_size * 1.2)
   h4_font_size: $base_font_size_large
   h5_font_size: $base_font_size
   h6_font_size: $base_font_size_small

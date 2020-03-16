@@ -34,7 +34,7 @@ ifdef::backend-html5[]
 endif::[]
 
 ifdef::backend-pdf[]
-== Eventos e Treinamentos ministrados
+== Eventos e treinamentos ministrados
 endif::[]
 
 --

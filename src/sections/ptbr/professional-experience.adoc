@@ -8,11 +8,10 @@ ifdef::backend-pdf[]
 == Experiências profissionais
 endif::[]
 
-
-=== Arquiteto de soluções na SONDA IT
-
+--
+**Arquiteto de Soluções** +
 icon:calendar[title="Período"] `Janeiro de 2018 até o Presente` +
-icon:group[title="Empregador"] {link-sonda}[SONDA IT, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-sonda}[SONDA IT, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] Fábrica de Software
 
 ifdef::backend-html5[]
@@ -36,11 +35,12 @@ ifdef::backend-html5[]
 endif::[]
 
 Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
+--
 
-=== Arquiteto de Software em CTIS Tecnologia
-
+--
+**Arquiteto de Software** +
 icon:calendar[title="Período"] `Julho de 2016 até Dezembro de 2017` +
-icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-mctic}[Ministério da Ciência e Tecnologia]
 
 ifdef::backend-html5[]
@@ -61,11 +61,12 @@ ifdef::backend-html5[]
 endif::[]
 
 Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
+--
 
 === Arquiteto de Software em CTIS Tecnologia
 
 icon:calendar[title="Período"] `Abril de 2016 a Julho de 2016` +
-icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-mdic}[Ministério do Desenvolvimento Indústria e Comércio]
 
 ifdef::backend-html5[]
@@ -94,7 +95,7 @@ Tecnologias:: ...
 === Software Architect at CTIS Tecnologia
 
 icon:calendar[title="Período"] `March 2015 to December 2015` +
-icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry of National Integration]
 
 ifdef::backend-html5[]
@@ -118,7 +119,7 @@ Tecnologias:: ...
 === PHP Developer at CTIS Tecnologia
 
 icon:calendar[title="Período"] `February 2014 to March 2015` +
-icon:group[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry of National Integration]
 
 ifdef::backend-html5[]
@@ -137,7 +138,7 @@ Tecnologias:: ...
 === SCM Analyst at Gestão TI
 
 icon:calendar[title="Período"] `April 2011 to July 2012` +
-icon:group[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
 
 ifdef::backend-html5[]
 .Atividades executadas
@@ -158,7 +159,7 @@ Tecnologias:: ...
 === PHP Developer at Gestão TI
 
 icon:calendar[title="Período"] `March 2012 to April 2012` +
-icon:group[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
 
 ifdef::backend-html5[]
 .Atividades executadas
@@ -177,7 +178,7 @@ Tecnologias:: ...
 === System Administrator at Fábrica de Ideias
 
 icon:calendar[title="Período"] `January 2011 to June 2011` +
-icon:group[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
 
 ifdef::backend-html5[]
 .Atividades executadas
@@ -199,7 +200,7 @@ Tecnologias:: ...
 === PHP Developer at Fábrica de Ideias
 
 icon:calendar[title="Período"] `August 2008 to December 2010` +
-icon:group[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
+icon:building[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
 
 ifdef::backend-html5[]
 .Atividades executadas

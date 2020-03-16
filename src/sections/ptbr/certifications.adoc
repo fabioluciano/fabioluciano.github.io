@@ -1,4 +1,3 @@
-[[certificacoes]]
 
 ifdef::backend-html5[]
 == icon:certificate[] Certificações

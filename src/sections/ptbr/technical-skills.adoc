@@ -7,47 +7,32 @@ endif::[]
 ifdef::backend-pdf[]
 == Conhecimentos Técnicos
 endif::[]
+=== Arquitetura de Soluções
 
 
-Linguagens de Progração:: PHP, Java, JavaScript, Shell Script, Python, C, Perl, (X)HTML e CSS
+=== Desenvolvimento de Aplicações
+**Linguagens de Programação**:: PHP, Java, JavaScript, Shell Script, Python, C, Perl, (X)HTML e CSS
 
-=== Arquitetura de Soluções / DevOps
-Projeto/Implantação de Soluções:: ...
-Desenvolvimento de Aplicações:: ...
+PHP::
+**Diversidade de versão**: PHP 4, 5 e 7; +
+**Frameworks**: Laravel 4/5, Zend Framework, Symfony, CakePHP, CodeIgniter, Kohana, Smarty Template Engine, FuelPHP e lithium; +
+**CMS**: Drupal, Joomla e Wordpress; +
+**Ferramentas e QA**: APC, PHPUnit, Xdebug, phpDocumentor e PEAR/PECL.
 
-=== PHP
-Diversidade de versão:: PHP 4, 5 e 7
-Frameworks:: Laravel 4/5, Zend Framework, Symfony, CakePHP, CodeIgniter, Kohana, Smarty Template Engine, FuelPHP, lithium.
-CMS:: Drupal, Joomla e Wordpress.
-Ferramentas e QA:: APC, PHPUnit, Xdebug, phpDocumentor e PEAR/PECL.
-
-=== Javascript / ECMAScript
-Metalinguagens:: TypeScript e CoffeeScript;
-Frameworks:: BackboneJS, AngularJS, Angular.io e EmberJS;
-Template Engines:: Jade, Haml, Handlebars e EJS;
-Task Runner:: Grunt, Gulp e Brocoli;
-Outros:: Yeoman, Less
-
+Javascript / ECMAScript::
+**Metalinguagens**: TypeScript e CoffeeScript; +
+**Frameworks**: BackboneJS, AngularJS, Angular.io, VueJS(Vuex) e Ember.js; +
+**Template Engines**: Jade, Haml, Handlebars e EJS; +
+**Task Runner**: Grunt, Gulp e Brocoli; +
+**Outros**: Yeoman, Sass e  Less
 
 === Administração de Sistemas
 * Instalação, configuração, manutenção e tunning em:
-** Servidores linux(Derivados do Debian e RHEL);
+** Servidores linux(Derivados do Debian, RHEL, OpenSuse e Alpine);
 ** Servidores de aplicação como Apache Httpd, Nginx, Lighttpd, Cherooke, Jboss AS e Wildfly;
 ** Servidores de bancos de dados como MySQL, PostgreSQL and Oracle Database;
-* Experience creating and maintaining rules for Netfilter / iptables.
-* DNS Server Maintenance with BIND and DHCP.
-* Experience creating, configuring and maintaining distributed version servers (Git and Mercurial) and centralized ones (SVN).
-* Experience with virtualized environments with kvm, virtualbox and openvz.
-* Experience in installation, configuration and maintenance of backup servers with Bacula.
-* Experience with integration of mixed environments with Samba.
-* Experience with installation, configuration and maintenance environments using reverse proxy with Squid (Traffic / Access Control and Security).
-* Experience with installation, configuration and maintenance of continuous integration environments using Hudson / Jenkins.
-* Experience with installation, configuration and maintenance of software quality assurance environments using SonarQube.
-* Experience with installation, configuration and maintenance of  Sonatype Nexus.
-* Experience in installation, configuration and maintenance containerized environments with docker
 
-=== Outras habilidates
-Database:: Extensive knowledge of ANSI SQL, MySQL, PostgreSQL, SQLite, NoSQL (MongoDB, CouchDB, etc).
-Best practices:: Extensive knowledge of object oriented principies and design patterns.
-High Availability:: Knowledge and experience in some techniques in scalability and redundancy, as database clustering / replication, partitioning and load balancing(Haproxy), and use Memcached and redis (cache).
-Other:: Regular expressions, Web Services (XML/JSON-RPC, REST, SOAP, etc), Search Engine Optimization (SEO). 
+=== Outras
+**Banco de dados**: Extensa experiência com ANSI SQL, MySQL, PostgreSQL, Oracle, SQLite, NoSQL (MongoDB, CouchDB, etc). +
+**Melhores práticas**: Extensa experiência com os princípios da orientação a objetos e padrões de projeto. +
+**Outras**: Expressões Regulares, Web Services (XML/JSON-RPC, REST, SOAP, GraphQL, e etc.).
