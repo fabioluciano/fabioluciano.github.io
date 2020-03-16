@@ -17,7 +17,8 @@ jobs:
       script:
         - make execute_python
         - make build_html
-        - make build_pdf
+        - make build_pdf_full
+        - make build_pdf_condensed
         - make optimize_pdf
 
     - stage: Build Docker Image and Push to Docker Hub
