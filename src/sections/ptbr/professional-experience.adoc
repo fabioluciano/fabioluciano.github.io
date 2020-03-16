@@ -10,10 +10,11 @@ endif::[]
 
 --
 **Arquiteto de Soluções** +
-icon:calendar[title="Período"] `Janeiro de 2018 até o Presente` +
+icon:calendar[title="Período"] Janeiro de 2018 até o Presente +
 icon:building[title="Empregador"] {link-sonda}[SONDA IT, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] Fábrica de Software
 
+ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
 .Atividades executadas
 [%collapsible]
@@ -33,16 +34,19 @@ endif::[]
 ifdef::backend-html5[]
 ====
 endif::[]
-
-Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
+endif::[]
+Tecnologias:: Cloud Computing, AWS, Azure, Terraform, Ansible, Docker, Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua e LogStash.
 --
+
+'''
 
 --
 **Arquiteto de Software** +
-icon:calendar[title="Período"] `Julho de 2016 até Dezembro de 2017` +
+icon:calendar[title="Período"] Julho de 2016 até Dezembro de 2017 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-mctic}[Ministério da Ciência e Tecnologia]
 
+ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
 .Atividades executadas
 [%collapsible]
@@ -59,161 +63,180 @@ endif::[]
 ifdef::backend-html5[]
 ====
 endif::[]
+endif::[]
 
-Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua, LogStash e QA.
+Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins, GitLab, Nexus, SonarQube, Pipeline, Integração Contínua, Entrega Contínua, Qualidade Contínua e LogStash.
 --
 
-=== Arquiteto de Software em CTIS Tecnologia
+'''
 
-icon:calendar[title="Período"] `Abril de 2016 a Julho de 2016` +
+--
+**Arquiteto de Software** +
+icon:calendar[title="Período"] Abril de 2016 a Julho de 2016 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Cliente"] {link-ministry-mdic}[Ministério do Desenvolvimento Indústria e Comércio]
 
+ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
 .Atividades executadas
 [%collapsible]
 ====
 endif::[]
 - Desenvolvimento e manutenção de uma arquitetura orientada a serviços (SOA);
-- Implementação arquitetural de sistemas utilizando Falcon PHP, Symfony e Laravel;
+- Implementação arquitetural de sistemas utilizando Phalcon PHP, Symfony e Laravel;
 - Implementação de componentes DAO para habilitação de reutilização em todas as arquiteturas;
 - Desenvolvimento e implantação de uma arquitetura AngularJS;
 - Documentação arquitetural de sistemas construídos;
 - Documentação de implantação das aplicações;
-- Maintaining and creation of jobs in the Jenkins, continuous integration tool;
-- Establish minimum security policies for applications developed that use the architecture;
-- Quality policy creation to be evaluated by static analiser;
-- Maintenance and monitoring of quality standard policies of the software developed using the Sonarqube;
-- Releases Maintenance and Snapshots using Sonatype Nexus.
-- Creating proof of concept using the architecture created by using containers.
+- Manutenção e criação de Jobs no Jenkins;
+- Estabelecimento de diretrizes de seguranças a serem seguidas pelos softwares desenvolvidos;
+- Definição de políticas de qualidade a serem avaliadas pela análise estática;
+- Monitoramento e manutenção de padrões de qualidade de software com o SonarQube;
+- Gerenciamento de versões e candidatas usando o Sonatype Nexus;
+- Criação de provas de conceitos de containerização de aplicações.
 ifdef::backend-html5[]
 ====
 endif::[]
+endif::[]
 
-Tecnologias:: ...
+Tecnologias:: SOA, PHP, Phalcon, Symfony, Laravel, DAO, Arquitetura, AngularJS, Jenkins, SonarQube, Sonatype Nexus, Docker, Container.
+--
 
-=== Software Architect at CTIS Tecnologia
+'''
 
-icon:calendar[title="Período"] `March 2015 to December 2015` +
+--
+**Arquiteto de Software** +
+icon:calendar[title="Período"] Março de 2015 a Dezembro 2015 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry of National Integration]
+icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministério da Integração Nacional]
 
+ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
 .Atividades executadas
 [%collapsible]
 ====
 endif::[]
 - Desenvolvimento e manutenção de arquiteturas orientadas a serviços (SOA);
-- Development of two bases for the backend. One using PHP, with the help of the Laravel framework, and other using Java, with the Spring framework;
-- Development of AngularJS based frontend architecture;
-- Scaffold tool creation to rapid development of features;
-- Architectural documentation of the systems delivered with the established architecture;
-- Deployment system documentation ;
-- Maintaining and creating jobs in the Jenkins, continuous integration tool;
+- Desenvolvimento de duas arquiteturas paa o Backend. Uma usando o Laravel para a construção de aplicações com PHP, e outra, em JAVA, utilizando o framework Spring;
+- Desenvolvimento de uma arquitetura frontend utilizando AngularJS;
+- Criação de uma ferramenta de scaffold de componentes AngularJs;
+- Documentação arquitetural de sistemas construídos;
+- Manutenção e criação de Jobs no Jenkins;
 ifdef::backend-html5[]
 ====
 endif::[]
+endif::[]
 
-Tecnologias:: ...
+Tecnologias:: SOA, PHP, Java, Laravel, Spring, AngularJS, Jenkins.
+--
 
-=== PHP Developer at CTIS Tecnologia
+'''
 
-icon:calendar[title="Período"] `February 2014 to March 2015` +
+--
+**Desenvolvedor PHP** +
+icon:calendar[title="Período"] Fevereiro de 2014 a Março de 2015 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministry of National Integration]
+icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministério da Integração Nacional]
 
+ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
 .Atividades executadas
 [%collapsible]
 ====
 endif::[]
-- Development and maintenance of softwares developed using PHP, with the Zend, Symfony and Laravel frameworks, and MySQL, PostgreSQL and Oracle Databases; 
-- Frontend development using HTML, Javascript (JQuery) and CSS.
+- Desenvolvimento e manutenção do backend de softwares em PHP, utilizando Zend, Symfony e Laravel como framework;
+- Desenvolvimento e manutenação do frontend utilizando  HTML, Javascript (JQuery) e CSS.
 ifdef::backend-html5[]
 ====
 endif::[]
+endif::[]
 
-Tecnologias:: ...
+Tecnologias:: PHP, Zend Framework, Symfony, Laravel, HTML, Javascript, JQuery e CSS.
+--
 
-=== SCM Analyst at Gestão TI
+'''
 
-icon:calendar[title="Período"] `April 2011 to July 2012` +
+--
+**Analista de configuração de mudança** +
+icon:calendar[title="Período"] Abril de  2011 a Julho de  2012 +
 icon:building[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
 
+ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
 .Atividades executadas
 [%collapsible]
 ====
 endif::[]
-- Maintenance and management of application servers;
-- Version management of generated artifacts; 
-- Delivery of developed products;
-- Creation of application security policies;
-- Maintenance of products baselines, branches and tags.
+- Manutenção e gerenciamento de servidores de aplicação;
+- Gerenciamento de linhas de base, branches e tags dos artefatos;
+- Entrega dos artefatos gerados;
+- Criação de políticas de seguranças das aplicações;
 ifdef::backend-html5[]
 ====
 endif::[]
-
-Tecnologias:: ...
-
-=== PHP Developer at Gestão TI
-
-icon:calendar[title="Período"] `March 2012 to April 2012` +
-icon:building[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
-
-ifdef::backend-html5[]
-.Atividades executadas
-[%collapsible]
-====
-endif::[]
-- Development and maintenance of softwares developed using PHP and SQL Server; 
-- Development of frontend using HTML, Javascript (JQuery) and CSS; 
-- Migration from legacy ASP softwares to PHP.
-ifdef::backend-html5[]
-====
 endif::[]
 
-Tecnologias:: ...
+Tecnologias:: Linux, Servidores, Windows, Linux, Subversion.
+--
 
-=== System Administrator at Fábrica de Ideias
+// === PHP Developer at Gestão TI
 
-icon:calendar[title="Período"] `January 2011 to June 2011` +
-icon:building[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
+// icon:calendar[title="Período"] `March 2012 to April 2012` +
+// icon:building[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
 
-ifdef::backend-html5[]
-.Atividades executadas
-[%collapsible]
-====
-endif::[]
-- Administration of 20 company servers;
-- Maintenance of application servers using the Apache HTTPd for backend, and Lighttpd for frontend;
-- Maintenance of server databases in clustered environment, ensuring high service availability;
-- Maintenance of reverse proxy server using Squid ;
-- SVN server administration;
-- Monitoring servers and services using Zabbix.
-ifdef::backend-html5[]
-====
-endif::[]
+// ifdef::backend-html5[]
+// .Atividades executadas
+// [%collapsible]
+// ====
+// endif::[]
+// - Development and maintenance of softwares developed using PHP and SQL Server; 
+// - Development of frontend using HTML, Javascript (JQuery) and CSS; 
+// - Migration from legacy ASP softwares to PHP.
+// ifdef::backend-html5[]
+// ====
+// endif::[]
 
-Tecnologias:: ...
+// Tecnologias:: ...
 
-=== PHP Developer at Fábrica de Ideias
+// === System Administrator at Fábrica de Ideias
 
-icon:calendar[title="Período"] `August 2008 to December 2010` +
-icon:building[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
+// icon:calendar[title="Período"] `January 2011 to June 2011` +
+// icon:building[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
 
-ifdef::backend-html5[]
-.Atividades executadas
-[%collapsible]
-====
-endif::[]
-- Development and maintenance of solutions developed using PHP and MySQL;
-- Development of frontend using HTML, Javascript (JQuery) and CSS;
-- Creation of an tool for marking areas in images to OCR. The markings are made using Python and wxWidgets, to ensure interoperability of the application;
-- Creation of an handmade Load Balance to garantee the high avaliability of services in operation;
-- Use of subversion for versioning releases of the software developed.
-ifdef::backend-html5[]
-====
-endif::[]
+// ifdef::backend-html5[]
+// .Atividades executadas
+// [%collapsible]
+// ====
+// endif::[]
+// - Administration of 20 company servers;
+// - Maintenance of application servers using the Apache HTTPd for backend, and Lighttpd for frontend;
+// - Maintenance of server databases in clustered environment, ensuring high service availability;
+// - Maintenance of reverse proxy server using Squid ;
+// - SVN server administration;
+// - Monitoring servers and services using Zabbix.
+// ifdef::backend-html5[]
+// ====
+// endif::[]
 
-Tecnologias:: PHP, MySQL, Javascript, HTML, CSS, Subversion, ShellScript 
+// Tecnologias:: ...
+
+// === PHP Developer at Fábrica de Ideias
+
+// icon:calendar[title="Período"] `August 2008 to December 2010` +
+// icon:building[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
+
+// ifdef::backend-html5[]
+// .Atividades executadas
+// [%collapsible]
+// ====
+// endif::[]
+// - Development and maintenance of solutions developed using PHP and MySQL;
+// - Development of frontend using HTML, Javascript (JQuery) and CSS;
+// - Creation of an tool for marking areas in images to OCR. The markings are made using Python and wxWidgets, to ensure interoperability of the application;
+// - Creation of an handmade Load Balance to garantee the high avaliability of services in operation;
+// - Use of subversion for versioning releases of the software developed.
+// ifdef::backend-html5[]
+// ====
+// endif::[]
+
+// Tecnologias:: PHP, MySQL, Javascript, HTML, CSS, Subversion, ShellScript 

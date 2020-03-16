@@ -17,6 +17,8 @@
 :google-analytics-account: UA-160509005-1
 :doctitle: {full-name}
 
+:with_activities: true
+
 :skype-id: fabiolucianodf
 :telephone: 55 (61) 981455884
 :email: fabio@naoimporta.com

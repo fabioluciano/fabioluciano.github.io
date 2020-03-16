@@ -1,2 +1,2 @@
-PyGithub==1.44
-jinja2==2.10.3
+PyGithub==1.47
+jinja2==2.11.1
