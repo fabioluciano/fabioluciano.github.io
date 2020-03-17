@@ -43,6 +43,6 @@ include::../../resources/data/ansible.adoc[]
 === Packer
 [width="100%", options="header",frame="topbot"] 
 |===
-| Nome | Description | Documentação 
+| Nome | Descrição | Documentação 
 include::../../resources/data/packer.adoc[]
 |===
