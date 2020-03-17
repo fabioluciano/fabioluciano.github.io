@@ -234,7 +234,7 @@ Tecnologias:: Linux, Gentoo, Httpd, MySQL, Squid, Subversion, Shell Script, Zabb
 
 --
 **Desenvolvedor PHP** +
-icon:calendar[title="Período"] `08/2008 a 12/2010` +
+icon:calendar[title="Período"] 08/2008 a 12/2010 +
 icon:building[title="Empregador"] {link-fabrica-ideias}[Fábrica de Ideias, role="external", window="_blank"] +
 
 ifeval::[{with_activities} == true]
@@ -248,6 +248,7 @@ endif::[]
 - Gerenciamento de linhas de base, branches e tags dos artefatos;
 ifdef::backend-html5[]
 ====
+endif::[]
 endif::[]
 
 Tecnologias:: PHP, MySQL, Javascript, HTML, CSS, Subversion, ShellScript
