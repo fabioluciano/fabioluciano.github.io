@@ -9,11 +9,8 @@ ifdef::backend-pdf[]
 endif::[]
 
 
-=== PHP Documentation
-
-{link-phpdocbridge} + 
-{link-phpdoc-tranlation-page} +
-{link-phppeople}
+=== Documentação do PHP
+Participo do {link-phppeople}[time oficial de tradutores] da documentação do PHP. Para garantir que todos tivessem acesso a criar merge requests com o repositório oficial, criamos um {link-phpdocbridge}[repositório] no Github que faz a ponte entre o repositório. Para ver a lista de minhas contribuições, acesse a página de {link-phpdoc-tranlation-page}[status da documentação].
 
 === Imagens Docker
 

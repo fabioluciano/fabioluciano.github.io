@@ -183,7 +183,7 @@ Tecnologias:: Linux, Servidores, Windows, Linux, Shell Script, Subversion.
 
 --
 **Desenvolvedor PHP** +
-icon:calendar[title="Período"] `03/2012 a 04/2012` +
+icon:calendar[title="Período"] 03/2012 a 04/2012 +
 icon:building[title="Empregador"] {link-gestao-ti}[Gestão TI, role="external", window="_blank"] +
 
 ifeval::[{with_activities} == true]
