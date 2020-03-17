@@ -34,7 +34,10 @@
 :link-resume-ptbr: /ptbr/
 
 :link-resume-en-pdf: /en/resume.pdf
+:link-resume-en-pdf-condensed: /en/resume-condensed.pdf
+
 :link-resume-ptbr-pdf: /ptbr/resume.pdf
+:link-resume-ptbr-pdf-condensed: /ptbr/resume-condensed.pdf
 
 
 :link-certification-zend-site: http://www.zend.com/en/yellow-pages/ZEND026303
