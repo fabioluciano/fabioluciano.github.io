@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: resume
+spec:
+  rules:
+  - host: kube.fabioluciano.dev
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: resume
+          servicePort: 80
+  tls:
+    - hosts:
+      - kube.fabioluciano.dev
+      secretName: kube-fabioluciano-dev-tls

@@ -8,8 +8,10 @@ ifdef::backend-pdf[]
 == Conhecimentos Técnicos
 endif::[]
 === Arquitetura de Soluções
-
-
+Arquitetura Cloud::
+**AWS**: 
+**Azure**:
+Arquitetura DevOps::
 === Desenvolvimento de Aplicações
 **Linguagens de Programação**:: PHP, Java, JavaScript, Shell Script, Python, C, Perl, (X)HTML e CSS
 

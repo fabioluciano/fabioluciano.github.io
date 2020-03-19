@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resume
+  labels:
+    app: resume
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: resume
+  template:
+    metadata:
+      labels:
+        app: resume
+    spec:
+      containers:
+      - name: resume
+        image: fabioluciano/fabioluciano.github.io:2.3.6
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "10Mi"
+            cpu: "2m"
+          limits:
+            memory: "50Mi"
+            cpu: "5m"
