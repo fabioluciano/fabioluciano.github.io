@@ -1,4 +1,3 @@
-[[certifications]]
 
 ifdef::backend-html5[]
 == icon:certificate[] Certifications
@@ -8,22 +7,27 @@ ifdef::backend-pdf[]
 == Certifications
 endif::[]
 
-=== AWS Certified Solutions Architect - Associate 
-icon:calendar[title="Period"] `October 2018` - `October 2023` +
-*License*: EZE0CYJ2KB4QQ094 - *Issuer*: Amazon Web Services - {link-certification-aws}[Verify, role="external", window="_blank"]
+--
+**AWS Certified Solutions Architect** - Associate +
+icon:building[title="Issuer"] Amazon Web Services icon:calendar[title="Valid until"] 10/2018 - 10/2023 icon:key[title="License"] {link-certification-aws}[EZE0CYJ2KB4QQ094, role="external", window="_blank"]
+--
 
-=== AWS Certified Cloud Practitioner
-icon:calendar[title="Period"] `September 2018` - `September 2020` +
-*License*: KZMW4WL21B44QN94 - *Issuer*: Amazon Web Services - {link-certification-aws}[Verify, role="external", window="_blank"]
+--
+**AWS Certified Cloud Practitioner** +
+icon:building[title="Issuer"] Amazon Web Services icon:calendar[title="Valid until"] 09/2018 - 09/2020 icon:key[title="License"] {link-certification-aws}[KZMW4WL21B44QN94, role="external", window="_blank"]
+--
 
-=== LPIC-OT DevOps Tools Engineer
-icon:calendar[title="Period"] `September 2018` - `September 2023` +
-*License*: LPI000397664 - *Issuer*: Linux Professional Institute - {link-certification-lpic-ot-site}[Verify, role="external", window="_blank"]
+--
+**LPIC-OT DevOps Tools Engineer** +
+icon:building[title="Issuer"] Linux Professional Institute icon:calendar[title="Valid until"] 09/2018 - 09/2023 icon:key[title="License"] {link-certification-lpic-ot-site}[LPI000397664, role="external", window="_blank"]
+--
 
-=== Zend Certified PHP Engineer
-icon:calendar[title="Period"] `February 2016` - ∞ +
-*License*: ZEND026303 - *Issuer*: Zend Technologies - {link-certification-zend-site}[Verify, role="external", window="_blank"]
+--
+**Zend Certified PHP Engineer** +
+icon:building[title="Issuer"] Zend Technologies icon:calendar[title="Valid untild until"] 02/2016 - ∞ icon:key[title="License"] {link-certification-zend-site}[ZEND026303, role="external", window="_blank"]
+--
 
-=== LPIC1 – Linux Professional Institute Certified – Level 1
-icon:calendar[title="Period"] `March 2012` +
-*License*: LPI000397664 - *Issuer*: Linux Professional Institute - {link-certification-lpic-ot-site}[Verify, role="external", window="_blank"]
+--
+**LPIC1 – Linux Professional Institute Certified** – Level 1 +
+icon:building[title="Issuer"] Linux Professional Institute icon:calendar[title="Valid until"] 03/2012 - ∞ icon:key[title="License"]{link-certification-lpic-ot-site}[LPI000397664, role="external", window="_blank"]
+--

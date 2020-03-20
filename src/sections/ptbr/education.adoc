@@ -1,11 +1,11 @@
 [[education]]
 
 ifdef::backend-html5[]
-== icon:graduation-cap[] Educação
+== icon:graduation-cap[] Acadêmico
 endif::[]
 
 ifdef::backend-pdf[]
-== Educação
+== Acadêmico
 endif::[]
 
 --
