@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: resume
-        image: fabioluciano/fabioluciano.github.io:2.4.0
+        image: fabioluciano/fabioluciano.github.io:2.4.1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
