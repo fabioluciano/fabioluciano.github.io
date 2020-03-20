@@ -6,6 +6,11 @@ font:
       bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
       italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
       bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+    Open Sans:
+      normal: OpenSans-Regular.ttf
+      bold: OpenSans-Bold.ttf
+      italic: OpenSans-Italic.ttf
+      bold_italic: OpenSans-BoldItalic.ttf
     # M+ 1mn supports ASCII and the circled numbers used for conums
     M+ 1mn:
       normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf

@@ -14,12 +14,12 @@ icon:building[title="Instituição"] Pontifícia Universidade Católica de Minas
 --
 
 --
-**Extensão em Análise e Projeto de Sistemas** - Extensão +
+**Análise e Projeto de Sistemas** - Extensão +
 icon:building[title="Instituição"] Centro Universitário IESB icon:calendar[title="Período"] 2012 - 2012
 --
 
 --
-**Extensão em Suporte de Tecnologia da Informação** - Extensão +
+**Suporte de Tecnologia da Informação** - Extensão +
 icon:building[title="Instituição"] Centro Universitário IESB icon:calendar[title="Período"] 2013 - 2013
 --
 
@@ -30,7 +30,7 @@ icon:building[title="Instituição"] Centro Universitário IESB icon:calendar[ti
 
 [[events]]
 ifdef::backend-html5[]
-== icon:users[] Eventos e Treinamentos ministrados
+== icon:users[] Eventos e treinamentos ministrados
 endif::[]
 
 ifdef::backend-pdf[]
