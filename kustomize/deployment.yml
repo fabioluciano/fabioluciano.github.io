@@ -5,7 +5,7 @@ metadata:
   labels:
     app: resume
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: resume
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: resume
-        image: fabioluciano/fabioluciano.github.io:2.3.6
+        image: fabioluciano/fabioluciano.github.io:2.4.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80

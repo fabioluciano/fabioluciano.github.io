@@ -24,10 +24,10 @@ icon:building[title="Emissor"] Linux Professional Institute icon:calendar[title=
 
 --
 **Zend Certified PHP Engineer** +
-icon:building[title="Emissor"] Zend Technologies icon:calendar[title="Período"] Fevereiro 2016 - ∞ + icon:key[title="Licença"] {link-certification-zend-site}[ZEND026303, role="external", window="_blank"]
+icon:building[title="Emissor"] Zend Technologies icon:calendar[title="Período"] Fevereiro 2016 - ∞ icon:key[title="Licença"] {link-certification-zend-site}[ZEND026303, role="external", window="_blank"]
 --
 
 --
 **LPIC1 – Linux Professional Institute Certified** – Level 1 +
-icon:building[title="Emissor"] Linux Professional Institute icon:calendar[title="Período"] Março de 2012 - ∞ + icon:key[title="Licença"]{link-certification-lpic-ot-site}[LPI000397664, role="external", window="_blank"]
+icon:building[title="Emissor"] Linux Professional Institute icon:calendar[title="Período"] Março de 2012 - ∞ icon:key[title="Licença"]{link-certification-lpic-ot-site}[LPI000397664, role="external", window="_blank"]
 --

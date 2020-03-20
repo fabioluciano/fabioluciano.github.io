@@ -57,4 +57,6 @@
 :link-phppeople: http://people.php.net/fabioluciano
 
 :link-terraform-integr8: https://registry.terraform.io/modules/integr8
-:link-ansible-galaxy-fabioluciano: https://galaxy.ansible.com/fabioluciano
+:link-ansible-galaxy-fabioluciano: https://galaxy.ansible.com/integr8
+:link-docker-hub-integr8: https://hub.docker.com/u/integr8
+:link-docker-hub-fabioluciano: https://hub.docker.com/u/fabioluciano

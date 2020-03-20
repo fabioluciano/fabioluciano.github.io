@@ -10,10 +10,10 @@ endif::[]
 
 
 === Documentação do PHP
-Participo do {link-phppeople}[time oficial de tradutores] da documentação do PHP. Para garantir que todos tivessem acesso a criar merge requests com o repositório oficial, criamos um {link-phpdocbridge}[repositório] no Github que faz a ponte entre o repositório. Para ver a lista de minhas contribuições, acesse a página de {link-phpdoc-tranlation-page}[status da documentação].
+Participo do {link-phppeople}[time oficial de tradutores] da documentação do PHP. Para garantir que todos tivessem acesso a criar merge requests no repositório oficial, criamos um {link-phpdocbridge}[repositório] no Github que faz a ponte entre os repositórios. Para ver a lista de minhas contribuições, acesse a página de {link-phpdoc-tranlation-page}[status da documentação].
 
 === Imagens Docker
-
+Todos os recursos criados estão disponíveis no {link-docker-hub-integr8}[DockerHub]. Aqui estão listados apenas alguns.
 [width="100%", options="header",frame="topbot"] 
 |===
 | Nome | Descrição | Documentação 
@@ -22,7 +22,7 @@ include::../../resources/data/docker.adoc[]
 
 === Terraform Scripts
 
-{link-terraform-integr8}
+Todos os recursos criados estão disponíveis no {link-terraform-integr8}[registrador oficial] da ferramenta. Aqui estão listados apenas alguns.
 
 [width="100%", options="header",frame="topbot"] 
 |===
@@ -31,8 +31,7 @@ include::../../resources/data/terraform.adoc[]
 |===
 
 === Ansible Galaxy Roles
-
-{link-ansible-galaxy-fabioluciano}
+Todos os recursos criados estão disponíveis no {link-ansible-galaxy-fabioluciano}[Ansible Galaxy]. Aqui estão listados apenas alguns.
 
 [width="100%", options="header",frame="topbot"] 
 |===

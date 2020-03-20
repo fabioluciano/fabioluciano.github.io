@@ -21,5 +21,5 @@ oxford_comma_separated_topics = ", ".join(most_common_topic_list[:-2] + [" e ".j
 
 for topic in ['docker', 'ansible', 'terraform', 'packer']:
   section = section_dir + topic + '.adoc'
-  filtered_repos = [repository for repository in repositories_with_description if topic in repository['topics']]
+  filtered_repos = [repository for repository in repositories_with_description if topic in repository['topics']][0:5]
   Template(template_file = 'repositories-list.adoc.jinja2', data = filtered_repos).write(section)
