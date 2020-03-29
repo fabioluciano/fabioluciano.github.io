@@ -39,17 +39,20 @@ endif::[]
 
 --
 **Utilização de GraphQL com VueJS para construção de APIs** +
-icon:user[title="Participação"] Palestrante   icon:calendar[title="Data"] 02/2020  icon:map-marker[title="Localização"] Canoas / RS
+icon:user[title="Participação"] Palestrante   icon:calendar[title="Data"] 02/2020  icon:map-marker[title="Localização"] Canoas / RS + 
+**Materiais**: {link-presentation-graphql}[Apresentação, role="external", window="_blank"] | {link-support-material-graphql}[Material de Apoio, role="external", window="_blank"]
 --
 
 --
 **Containers para pessoas ansiosas** +
-icon:user[title="Participação"] Palestrante icon:calendar[title="Período"] 01/2020 icon:map-marker[] Brasília / DF
+icon:user[title="Participação"] Palestrante icon:calendar[title="Período"] 01/2020 icon:map-marker[] Brasília / DF +
+**Materiais**: {link-presentation-container}[Apresentação, role="external", window="_blank"] | {link-support-material-containers}[Material de Apoio, role="external", window="_blank"]
 --
 
 --
 **Containers para pessoas ansiosas** +
-icon:user[title="Participação"] Palestrante icon:calendar[title="Período"] 11/2019 icon:map-marker[] Campina Grande / PB
+icon:user[title="Participação"] Palestrante icon:calendar[title="Período"] 11/2019 icon:map-marker[] Campina Grande / PB +
+**Materiais**: {link-presentation-container}[Apresentação, role="external", window="_blank"] | {link-support-material-containers}[Material de Apoio, role="external", window="_blank"]
 --
 
 ifdef::backend-html5[]

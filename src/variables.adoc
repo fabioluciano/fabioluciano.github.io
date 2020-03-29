@@ -60,3 +60,8 @@
 :link-ansible-galaxy-fabioluciano: https://galaxy.ansible.com/integr8
 :link-docker-hub-integr8: https://hub.docker.com/u/integr8
 :link-docker-hub-fabioluciano: https://hub.docker.com/u/fabioluciano
+
+:link-support-material-containers: https://containers-for-anxious-people.integr8.app/
+:link-presentation-container: https://containers-for-anxious-people.integr8.app/presentation.html
+:link-presentation-graphql: https://containers-for-anxious-people.integr8.app/presentation.html#/_graphql
+:link-support-material-graphql: https://containers-for-anxious-people.integr8.app/presentation.html#/_graphql
