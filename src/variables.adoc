@@ -64,4 +64,4 @@
 :link-support-material-containers: https://containers-for-anxious-people.integr8.app/
 :link-presentation-container: https://containers-for-anxious-people.integr8.app/presentation.html
 :link-presentation-graphql: https://containers-for-anxious-people.integr8.app/presentation.html#/_graphql
-:link-support-material-graphql: https://containers-for-anxious-people.integr8.app/presentation.html#/_graphql
+:link-support-material-graphql: https://containers-for-anxious-people.integr8.app/#_graphql
