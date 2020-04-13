@@ -1,5 +1,109 @@
-apiVersion: tekton.dev/v1alpha1
+apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: output-pipeline
 spec:
+  workspaces:
+    - name: shared-data
+  resources:
+    - name: git_repository
+    - name: image_repository
+  tasks:
+    - name: generate-github-tables
+      taskRef:
+        name: build-github-data-tables
+      resources:
+        inputs:
+          - name: repository
+            resource: git_repository
+        outputs:
+          - name: repository
+            resource: git_repository
+      workspaces:
+        - name: storage
+          workspace: shared-data
+
+
+
+
+
+
+
+
+
+
+
+
+            
+    # - name: generete-html-versions
+    #   runAfter:
+    #     - generate-github-tables
+    #   workspaces:
+    #     - name: build-workspace
+    #       persistentVolumeClaim:
+    #         claimName: workspace
+    #       subPath: output
+    #   taskRef:
+    #     name: build-html
+    #   resources:
+    #     inputs:
+    #       resources:
+    #       - name: repository
+    #         resourceRef:
+    #           name: github-repository
+    # - name: generete-pdf-versions
+    #   runAfter:
+    #     - generate-github-tables
+    #   workspaces:
+    #     - name: build-workspace
+    #       persistentVolumeClaim:
+    #         claimName: workspace
+    #       subPath: output
+    #   taskRef:
+    #     name: build-pdf
+    #   resources:
+    #     inputs:
+    #       resources:
+    #       - name: repository
+    #         resourceRef:
+    #           name: github-repository
+    # - name: generete-condensed-pdf-versions
+    #   runAfter:
+    #     - generate-github-tables
+    #   workspaces:
+    #     - name: build-workspace
+    #       persistentVolumeClaim:
+    #         claimName: workspace
+    #       subPath: output
+    #   taskRef:
+    #     name: build-condensed-pdf
+    #   resources:
+    #     inputs:
+    #       resources:
+    #       - name: repository
+    #         resourceRef:
+    #           name: github-repository
+    # - name: generate-container-image-and-push
+    #   runAfter:
+    #     - generate-github-tables
+    #     - generete-html-versions
+    #     - generete-pdf-versions
+    #     - generete-condensed-pdf-versions
+    #   workspaces:
+    #     - name: build-workspace
+    #       persistentVolumeClaim:
+    #         claimName: workspace
+    #       subPath: output
+    #   taskRef:
+    #     name: build-condensed-pdf
+    #   resources:
+    #     inputs:
+    #       resources:
+    #       - name: repository
+    #         resourceRef:
+    #           name: github-repository
+    #     outputs:
+    #       resources:
+    #       - name: image
+    #         resourceRef:
+    #           name: dockerhub-repository

@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  name: build-html
+  name: build-condensed-pdf
 spec:
   workspaces:
     - name: build-workspace
@@ -14,25 +14,33 @@ spec:
       image: asciidoctor/docker-asciidoctor
       workingDir: "$(resources.inputs.repository.path)"
       command:
-        - asciidoctor
+        - asciidoctor-pdf
       args:
+        - -a 
+        - allow-uri-read
         - -a
-        - toc=left
+        - pdf-theme=src/resources/themes/default-theme.yml
+        - -a 
+        - pdf-fontsdir=src/resources/fonts
         - -a
-        - docinfo=shared
+        - with_activities=false
         - -o
-        - $(workspaces.build-workspace.path)/ptbr/index.html
+        - $(workspaces.build-workspace.path)/ptbr/resume-raw.pdf
         - src/resume-ptbr.adoc
     - name: build-en-version
       image: asciidoctor/docker-asciidoctor
       workingDir: "$(resources.inputs.repository.path)"
       command:
-        - asciidoctor
+        - asciidoctor-pdf
       args:
+        - -a 
+        - allow-uri-read
         - -a
-        - toc=left
+        - pdf-theme=src/resources/themes/default-theme.yml
+        - -a 
+        - pdf-fontsdir=src/resources/fonts
         - -a
-        - docinfo=shared
+        - with_activities=false
         - -o
-        - $(workspaces.build-workspace.path)/en/index.html
+        - $(workspaces.build-workspace.path)/en/resume-raw.pdf
         - src/resume-en.adoc

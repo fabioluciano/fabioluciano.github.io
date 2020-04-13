@@ -1,12 +1,15 @@
 apiVersion: tekton.dev/v1alpha1
 kind: Task
 metadata:
-  name: execute-python-code
+  name: build-github-data-tables
 spec:
   workspaces:
-    - name: build-workspace
-  inputs:
-    resources:
+    - name: storage
+  resources:
+    inputs:
+      - name: repository
+        type: git
+    outputs:
       - name: repository
         type: git
   steps:
@@ -21,8 +24,8 @@ spec:
         - --user
       env:
         - name: PYTHONUSERBASE
-          value: "$(workspaces.build-workspace.path)"
-    - name: execute-python-code
+          value: "$(resources.inputs.repository.path)/pipcache"
+    - name: generate-github-tables
       image: python:alpine
       workingDir: "$(resources.inputs.repository.path)"
       command: 
@@ -31,7 +34,7 @@ spec:
         - $(resources.inputs.repository.path)/src/python/main.py
       env:
         - name: PYTHONPATH
-          value: "$(workspaces.build-workspace.path)/lib/python3.8/site-packages/"
+          value: "$(resources.inputs.repository.path)/pipcache/lib/python3.8/site-packages/"
         - name: GH_TOKEN
           valueFrom:
             secretKeyRef:

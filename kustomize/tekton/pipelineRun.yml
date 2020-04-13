@@ -1,0 +1,19 @@
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: pipelinerun
+spec:
+  serviceAccountName: tekton
+  pipelineRef:
+    name: output-pipeline
+  resources:
+  - name: git_repository
+    resourceRef:
+      name: github-repository
+  - name: image_repository
+    resourceRef:
+      name: dockerhub-repository
+  workspaces:
+  - name: shared-data
+    persistentVolumeClaim:
+      claimName: shared-data-volume-claim

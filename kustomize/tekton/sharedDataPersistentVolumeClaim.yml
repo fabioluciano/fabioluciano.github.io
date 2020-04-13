@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: workspace
+  name: shared-data-volume-claim
 spec:
   resources:
     requests:

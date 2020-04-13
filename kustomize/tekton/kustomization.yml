@@ -1,4 +1,4 @@
-namespace: tekton
+namespace: tekton-builds
 
 generatorOptions:
   disableNameSuffixHash: true
@@ -16,16 +16,17 @@ secretGenerator:
 
 resources:
   - namespace.yml
-  - dockerHubServiceAccount.yml
-  
+  - tektonServiceAccount.yml
+  - tektonClusterRoleBinding.yml
   - githubRepositoryPipelineResource.yml
-  - containerImageRepositoryPipelineResource.yml
+  - dockerHubRepositoryPipelineResource.yml
+  - sharedDataPersistentVolumeClaim.yml
+  - buildGithubDataTablesTask.yml
+  - pipeline.yml
+  - pipelineRun.yml
 
-  - workspacePersistentVolumeClaim.yml
 
-  - executePythonCodeTask.yml
-  - buildHTMLTask.yml
 
-  - buildHTMLTaskRun.yml
-  - executePythonCodeTaskRun.yml
-  - buildContainerImageTaskRun.yml
+    # - buildHTMLTask.yml
+  # - buildPDFFullTask.yml
+  # - buildPDFCondensedTask.yml
