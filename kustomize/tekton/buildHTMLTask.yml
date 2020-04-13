@@ -1,0 +1,41 @@
+apiVersion: tekton.dev/v1alpha1
+kind: Task
+metadata:
+  name: build-html
+spec:
+  workspaces:
+    - name: build-workspace
+  inputs:
+    resources:
+      - name: repository
+        type: git
+  steps:
+    - name: build-ptbr-version
+      image: asciidoctor/docker-asciidoctor
+      workingDir: "$(resources.inputs.repository.path)"
+      command:
+        - asciidoctor
+      args:
+        - -a
+        - toc=left
+        - -a
+        - docinfo=shared
+        - -o
+        - $(workspaces.build-workspace.path)/ptbr/index.html
+        - src/resume-ptbr.adoc
+      env:
+        - name: PYTHONUSERBASE
+          value: "$(workspaces.build-workspace.path)"
+    - name: build-en-version
+      image: asciidoctor/docker-asciidoctor
+      workingDir: "$(resources.inputs.repository.path)"
+      command:
+        - asciidoctor
+      args:
+        - -a
+        - toc=left
+        - -a
+        - docinfo=shared
+        - -o
+        - $(workspaces.build-workspace.path)/en/index.html
+        - src/resume-en.adoc

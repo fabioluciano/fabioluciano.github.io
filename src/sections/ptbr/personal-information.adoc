@@ -7,12 +7,11 @@ ifdef::backend-pdf[]
 == Informações pessoais
 endif::[]
 
-
 Contatos::
 icon:envelope[] **E-mail:** {email} +
 icon:phone[] **Telefone:** {telephone} +
 icon:skype[] **Skype:** {skype-id} +
-icon:map-marker[] **Localização** link:https://goo.gl/maps/CVjggk7kCeM2[{whereami}, role="external", window="_blank"]
+icon:map-marker[] **Localização:** link:https://goo.gl/maps/CVjggk7kCeM2[{whereami}, role="external", window="_blank"]
 
 Mídias Sociais / Websites::
 https://github.com/fabioluciano[ icon:github[] Github  , role="external", window="_blank"] | https://www.linkedin.com/in/fabioluciano[ icon:linkedin[] LinkedIn , role="external", window="_blank"] | https://twitter.com/fabioluciano[ icon:twitter[] Twitter  , role="external", window="_blank"] | https://t.me/fabioluciano[ icon:comment[] Telegram , role="external", window="_blank"] +

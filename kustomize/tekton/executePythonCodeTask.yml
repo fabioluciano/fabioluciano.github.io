@@ -1,0 +1,39 @@
+apiVersion: tekton.dev/v1alpha1
+kind: Task
+metadata:
+  name: execute-python-code
+spec:
+  workspaces:
+    - name: build-workspace
+  inputs:
+    resources:
+      - name: repository
+        type: git
+  steps:
+    - name: install-python-dependencies
+      image: python:alpine
+      command:
+        - pip3
+      args:
+        - install
+        - -r
+        - $(resources.inputs.repository.path)/src/python/requirements.txt
+        - --user
+      env:
+        - name: PYTHONUSERBASE
+          value: "$(workspaces.build-workspace.path)"
+    - name: execute-python-code
+      image: python:alpine
+      workingDir: "$(resources.inputs.repository.path)"
+      command: 
+        - python
+      args:
+        - $(resources.inputs.repository.path)/src/python/main.py
+      env:
+        - name: PYTHONPATH
+          value: "$(workspaces.build-workspace.path)/lib/python3.8/site-packages/"
+        - name: GH_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: github-token
+              key: GH_TOKEN

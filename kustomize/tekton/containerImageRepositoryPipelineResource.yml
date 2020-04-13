@@ -1,0 +1,9 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: dockerhub-repository
+spec:
+  type: image
+  params:
+  - name: url
+    value: fabioluciano/fabioluciano.github.io

@@ -1,0 +1,31 @@
+namespace: tekton
+
+generatorOptions:
+  disableNameSuffixHash: true
+  labels:
+    type: generated
+  annotations:
+    note: generated
+
+secretGenerator:
+  - name: github-token
+    env: secrets/github-token.env
+  - name: dockerhub-auth-credentials
+    type: kubernetes.io/basic-auth
+    env: secrets/dockerhub.env
+
+resources:
+  - namespace.yml
+  - dockerHubServiceAccount.yml
+  
+  - githubRepositoryPipelineResource.yml
+  - containerImageRepositoryPipelineResource.yml
+
+  - workspacePersistentVolumeClaim.yml
+
+  - executePythonCodeTask.yml
+  - buildHTMLTask.yml
+
+  - buildHTMLTaskRun.yml
+  - executePythonCodeTaskRun.yml
+  - buildContainerImageTaskRun.yml

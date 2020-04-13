@@ -1,0 +1,11 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: github-repository
+spec:
+  type: git
+  params:
+    - name: url
+      value: https://github.com/fabioluciano/fabioluciano.github.io
+    - name: revision
+      value: development

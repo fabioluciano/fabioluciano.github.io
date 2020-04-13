@@ -1,0 +1,17 @@
+apiVersion: tekton.dev/v1alpha1
+kind: TaskRun
+metadata:
+  name: build-html-task-run
+spec:
+  workspaces:
+    - name: build-workspace
+      persistentVolumeClaim:
+        claimName: workspace
+      subPath: output
+  taskRef:
+    name: build-html
+  inputs:
+    resources:
+    - name: repository
+      resourceRef:
+        name: github-repository
