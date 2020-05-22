@@ -30,6 +30,7 @@ include::{includedir}/en/certifications.adoc[]
 
 include::{includedir}/en/technical-skills.adoc[]
 
+include::{includedir}/en/opensource.adoc[]
+
 include::{includedir}/en/professional-experience.adoc[]
 
-include::{includedir}/en/opensource.adoc[]
