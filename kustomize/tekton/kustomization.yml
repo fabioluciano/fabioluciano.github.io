@@ -18,6 +18,7 @@ resources:
   - namespace.yml
   - tektonServiceAccount.yml
   - tektonClusterRoleBinding.yml
+  - kaniko.yml
   - githubRepositoryPipelineResource.yml
   - dockerHubRepositoryPipelineResource.yml
   - sharedDataPersistentVolumeClaim.yml
@@ -25,8 +26,6 @@ resources:
   - pipeline.yml
   - pipelineRun.yml
 
-
-
-    # - buildHTMLTask.yml
+  # - buildHTMLTask.yml
   # - buildPDFFullTask.yml
   # - buildPDFCondensedTask.yml

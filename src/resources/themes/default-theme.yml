@@ -251,16 +251,14 @@ outline_list:
   item_spacing: $vertical_rhythm / 2
 table:
   background_color: $page_background_color
-  border_color: DDDDDD
-  border_width: $base_border_width
-  cell_padding: 3
+  border_color: CFCFCF
+  border_width: 0.3
+  cell_padding: 2
   head:
     font_style: bold
-    border_bottom_width: $base_border_width * 2.5
+    background-color: f9f9f9
   body:
-    stripe_background_color: F9F9F9
-  foot:
-    background_color: F0F0F0
+    stripe_background_color: DBDBDB
 toc:
   indent: $horizontal_rhythm
   line_height: 1.4
