@@ -35,7 +35,7 @@ Tecnologias:: Cloud Computing, AWS, Pipeline, Integração Contínua, Entrega Co
 **Arquiteto de Soluções** +
 icon:calendar[title="Período"] 01/2018 até o 07/2020 +
 icon:building[title="Empregador"] {link-sonda}[SONDA IT, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] Fábrica de Software
+icon:chevron-circle-right[title="Departamento|"] Fábrica de Software
 
 ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
@@ -67,7 +67,7 @@ Tecnologias:: Cloud Computing, AWS, Azure, Terraform, Ansible, Docker, Java, PHP
 **Arquiteto de Software** +
 icon:calendar[title="Período"] 07/2016 até 12/2017 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] {link-ministry-mctic}[Ministério da Ciência e Tecnologia]
+icon:chevron-circle-right[title="Departamento|"] {link-ministry-mctic}[Ministério da Ciência e Tecnologia]
 
 ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
@@ -97,7 +97,7 @@ Tecnologias:: Java, PHP, CAS, Microserviços, DevOPS, Jenkins, Angular, Jenkins,
 **Arquiteto de Software** +
 icon:calendar[title="Período"] 04/2016 a 07/2016 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] {link-ministry-mdic}[Ministério do Desenvolvimento Indústria e Comércio]
+icon:chevron-circle-right[title="Departamento|"] {link-ministry-mdic}[Ministério do Desenvolvimento Indústria e Comércio]
 
 ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
@@ -131,7 +131,7 @@ Tecnologias:: SOA, PHP, Phalcon, Symfony, Laravel, DAO, Arquitetura, AngularJS, 
 **Arquiteto de Software** +
 icon:calendar[title="Período"] 03/2015 a 12/2015 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministério da Integração Nacional]
+icon:chevron-circle-right[title="Departamento|"] {link-ministry-integration}[Ministério da Integração Nacional]
 
 ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
@@ -159,7 +159,7 @@ Tecnologias:: SOA, PHP, Java, Laravel, Spring, AngularJS, Jenkins.
 **Desenvolvedor PHP** +
 icon:calendar[title="Período"] 02/2014 a 03/2015 +
 icon:building[title="Empregador"] {link-ctis}[CTIS Tecnologia, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Cliente"] {link-ministry-integration}[Ministério da Integração Nacional]
+icon:chevron-circle-right[title="Departamento|"] {link-ministry-integration}[Ministério da Integração Nacional]
 
 ifeval::[{with_activities} == true]
 ifdef::backend-html5[]
